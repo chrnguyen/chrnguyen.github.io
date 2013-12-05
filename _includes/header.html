@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{{page.title}} | {{site.name}}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="{{site.description}}">
+		{% if page.css %}
+			{% for item in page.css %}
+				<link rel="stylesheet" href="{{ site.url }}/css/{{ item }}.css" type="text/css" />
+			{% endfor %}
+		{% endif %}
+		<script type="text/javascript" src="//use.typekit.net/muu8svg.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body class="{{page.back}}">
+		<div id="navbar">
+			<ul class="nav">
+				{% if page.categories contains 'writings' %}
+					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
+					<li><a href="{{ site.url }}/work">Work</a></li>
+					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}/writings">{% endif %}Writings{% if page.anode != true %}</a>{% endif %}</li>
+				{% elsif page.categories contains 'work' %}
+					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
+					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}/work">{% endif %}Work{% if page.anode != true%}</a>{% endif %}</li>
+					<li><a href="{{ site.url }}/writings">Writings</a></li>
+				{% else%}
+					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}">{% endif %}Christina Nguyen{% if page.anode != true %}</a>{% endif %}</li>
+					<li><a href="{{ site.url }}/work">Work</a></li>
+					<li><a href="{{ site.url }}/writings">Writings</a></li>
+				{% endif %}
+			</ul>
+		</div>

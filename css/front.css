@@ -1,0 +1,228 @@
+h1{
+	color: #fff;
+	font-size: 3.5em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+.yellowbackground a:hover{
+	color: #000;
+}
+
+#top-container h1, #top-container h2{
+	line-height: .5em;
+	text-align: center;
+}
+
+#front-top{
+	width: 100%;
+}
+
+.fronttopsection{
+	padding: .6em;
+	display: inline-block;
+	height: 18em;
+	text-align: center;
+}
+
+#half-phone{
+	z-index: 10;
+	width: 262px;
+}
+
+#skimphonecontainer{
+	height: 262px;
+}
+
+#skimcontainer{
+	height: 175px;
+	width: 220px;
+	position: relative;
+	top: -192px;
+	left: 20px;
+	overflow: hidden;
+}
+
+#skimimg{
+	position: relative;
+	top:0px;
+	width: 220px;
+	transition: top 2s ease-in-out;
+	-webkit-transition: top 2s ease-in-out;
+	-moz-transition: top 2s ease-in-out;
+	-ms-transition: top 2s ease-in-out;
+	-o-transition: top 2s ease-in-out;
+}
+
+#skimcontainer img:hover{
+	top: -390px;
+}
+
+.linkyicons:hover img{
+	border-bottom: solid #e97f02; /*orange*/
+	opacity: .3;
+}
+
+.linkyicons:hover p{
+	visibility: visible;
+	opacity: 1;
+}
+
+.iconsdesc{
+	color: #898989;
+	text-decoration: none;
+	line-height: 1.1em;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s;
+	font-size: .7em;
+	padding: 0;
+	margin: 0;
+}
+
+.linkyicons{
+	display: inline-block;
+	text-align: center;
+	height: 3em;
+}
+
+#reachouticons .linkyicons{
+	width: 16%;
+	height: 3em;
+}
+
+.icons-adv{
+	width:75px;
+	display: inline-block;
+	text-align: center;
+}
+
+.icons-adv img{
+	margin-right:.2em;
+}
+
+#frontmusic, #frontthings, #frontdata{
+	text-align:center;
+	width:30%;
+	display: inline-block;
+}
+
+#frontmusic .linkyicons, #frontthings .linkyicons{
+	width:30%;
+}
+
+#frontthings{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#dataicons .linkyicons{
+	width:23%;
+}
+
+.adv{
+	line-height:2.5em;
+}
+
+.icons{
+	width:11.5%;
+	display:inline-block;
+	height:3em;
+	text-align:center;
+}
+
+#lovethese{
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#lovethese h3{
+	width: 2em;
+	display: inline-block;
+	text-align: center;
+	margin-left:.2em;
+	margin-right:.3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.icons .iconsdesc{
+	visibility: visible;
+	opacity: 1;
+}
+
+.icons:hover a img{
+	opacity: .3;
+}
+
+.icons:hover a p{
+	color: #f8ca00;
+}
+
+#loveicons{
+	display: inline-block;
+	width:90%;
+}
+
+.advtext{
+	display: inline-block;
+}
+
+#me{
+	display: inline-block;
+}
+
+@media only screen and (max-width: 900px){
+
+	
+	#me{
+		display: none;
+		
+	}
+	
+}
+
+@media only screen and (max-width: 800px){
+
+	
+	#frontmusic, #frontthings, #frontdata{
+		width: 100%;
+		
+	}
+	#frontthings{
+		margin:0;
+	}
+	
+	#reachouticons .linkyicons{
+		width: 30%;
+	}
+	
+	.icons{
+		width: 32%;
+		height: 5em;
+		text-align: center;
+	}
+	
+	#lovethese h3{
+		width: 100%;
+		text-align: center;
+	}
+	
+}
+
+@media only screen and (max-width: 500px){
+
+	
+	#navbar{
+		font-size: 1.1em;
+		
+	}
+}
