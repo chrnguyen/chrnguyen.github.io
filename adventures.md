@@ -2,7 +2,6 @@
 title: Adventures
 layout: default
 css: main
-back: creambackground
 ---
 
 ## Reclaiming my childhood
@@ -44,7 +43,6 @@ back: creambackground
 - Adopt and take care of a dog
 - Quit a job to start a company
 - Learn to be comfortable in high heels
-- Eat dinners with kids if I have any until they go to college
 - <del>Wine and cheese nights</del>
 
 ## High-priority domestic travel
@@ -56,7 +54,7 @@ back: creambackground
 - <del>Introduce a friend to Boston/Cambridge</del>
 
 ## High-priority international travel
-- Japan
+- <del>Japan</del>
 - Vietnam
 - Australia
 - India

@@ -8,7 +8,7 @@
 		<meta name="description" content="{{site.description}}">
 		{% if page.css %}
 			{% for item in page.css %}
-				<link rel="stylesheet" href="{{ site.url }}/css/{{ item }}.css" type="text/css" />
+				<link rel="stylesheet" href="../css/{{ item }}.css" type="text/css" />
 			{% endfor %}
 		{% endif %}
 		<script type="text/javascript" src="//use.typekit.net/muu8svg.js"></script>
@@ -20,15 +20,15 @@
 				{% if page.categories contains 'writings' %}
 					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
 					<li><a href="{{ site.url }}/work">Work</a></li>
-					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}/writings">{% endif %}Writings{% if page.anode != true %}</a>{% endif %}</li>
+					<li class="selected">{% if page.anode != true %}<a href="../writings">{% endif %}Writings{% if page.anode != true %}</a>{% endif %}</li>
 				{% elsif page.categories contains 'work' %}
 					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
-					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}/work">{% endif %}Work{% if page.anode != true%}</a>{% endif %}</li>
+					<li class="selected">{% if page.anode != true %}<a href="../work">{% endif %}Work{% if page.anode != true%}</a>{% endif %}</li>
 					<li><a href="{{ site.url }}/writings">Writings</a></li>
 				{% else%}
-					<li class="selected">{% if page.anode != true %}<a href="{{site.url}}">{% endif %}Christina Nguyen{% if page.anode != true %}</a>{% endif %}</li>
-					<li><a href="{{ site.url }}/work">Work</a></li>
-					<li><a href="{{ site.url }}/writings">Writings</a></li>
+					<li class="selected">{% if page.anode != true %}<a href="{{site.baseurl}}">{% endif %}Christina Nguyen{% if page.anode != true %}</a>{% endif %}</li>
+					<li><a href="{{ site.baseurl }}/work">Work</a></li>
+					<li><a href="{{ site.baseurl }}/writings">Writings</a></li>
 				{% endif %}
 			</ul>
 		</div>
