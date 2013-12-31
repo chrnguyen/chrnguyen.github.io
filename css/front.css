@@ -97,13 +97,13 @@ h3{
 	height: 3em;
 }
 
-.icons-adv{
+.icons-adventure{
 	width:75px;
 	display: inline-block;
 	text-align: center;
 }
 
-.icons-adv img{
+.icons-adventure img{
 	margin-right:.2em;
 }
 
@@ -126,7 +126,7 @@ h3{
 	width:23%;
 }
 
-.adv{
+.adventure{
 	line-height:2.5em;
 }
 
@@ -172,7 +172,7 @@ h3{
 	width:90%;
 }
 
-.advtext{
+.adventuretext{
 	display: inline-block;
 }
 

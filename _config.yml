@@ -1,6 +1,6 @@
 name: "Christina Nguyen"
-description: "personal website"
-baseurl: "http://chrnguyen.github.io"
+description: "My name is Christina Nguyen and I enjoy designing and prototyping products with empathy and moxie."
+baseurl: "chrnguyen.github.io"
 paginate: 10
 markdown: rdiscount
 permalink: pretty
