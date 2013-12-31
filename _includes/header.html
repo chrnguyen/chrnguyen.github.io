@@ -18,15 +18,15 @@
 		<div id="navbar">
 			<ul class="nav">
 				{% if page.categories contains 'writings' %}
-					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
-					<li><a href="{{ site.url }}/work">Work</a></li>
-					<li class="selected">{% if page.anode != true %}<a href="../writings">{% endif %}Writings{% if page.anode != true %}</a>{% endif %}</li>
+					<li><a href="/">Christina Nguyen</a></li>
+					<li><a href="/work">Work</a></li>
+					<li class="selected">{% if page.anode != true %}<a href="/writings">{% endif %}Writings{% if page.anode != true %}</a>{% endif %}</li>
 				{% elsif page.categories contains 'work' %}
-					<li><a href="{{ site.url }}">Christina Nguyen</a></li>
-					<li class="selected">{% if page.anode != true %}<a href="../work">{% endif %}Work{% if page.anode != true%}</a>{% endif %}</li>
-					<li><a href="{{ site.url }}/writings">Writings</a></li>
+					<li><a href="/">Christina Nguyen</a></li>
+					<li class="selected">{% if page.anode != true %}<a href="/work">{% endif %}Work{% if page.anode != true%}</a>{% endif %}</li>
+					<li><a href="/writings">Writings</a></li>
 				{% else%}
-					<li class="selected">{% if page.anode != true %}<a href="{{site.baseurl}}">{% endif %}Christina Nguyen{% if page.anode != true %}</a>{% endif %}</li>
+					<li class="selected">{% if page.anode != true %}<a href="/">{% endif %}Christina Nguyen{% if page.anode != true %}</a>{% endif %}</li>
 					<li><a href="/work">Work</a></li>
 					<li><a href="/writings">Writings</a></li>
 				{% endif %}
