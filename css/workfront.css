@@ -1,0 +1,89 @@
+.work{
+	background-color: #555;
+	width:100%;
+	margin-top: -3em;
+}
+
+.content{
+	width: 95%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.rocket,.everwonder,.cardboard,.skimbox,.ccomfort{
+	display:inline;
+}
+
+.rocket img,.everwonder img,.cardboard img,.skimbox img,.ccomfort img{
+	vertical-align: top;
+}
+
+.rocket img{
+	width: 26%;
+	padding-top: 5em;
+}
+
+.everwonder img{
+	width: 35%;
+	padding-top:12em;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+
+.ccomfort img{
+	width: 20%;
+	padding-top:10em;
+}
+
+.cardboard img{
+	width: 35%;
+	padding-top:2em;
+	padding-left: 6%;
+	padding-right: 5%;
+}
+
+.skimbox img{
+	width: 28%;
+	margin-top:-2em;
+	padding-bottom: 2em;
+}
+
+.anexperience img{
+	width: 20%;
+	max-width: 15em;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 3.5em;
+	padding-right: 5%;
+}
+
+.anexperience .desc{
+	width: 70%;
+	margin-right: 0;
+	margin-left: auto;
+	display: inline-block;
+}
+
+.projects ul{
+	list-style-type: none;
+}
+.projects .date{
+	color: #b6b6b6;
+}
+
+@media only screen and (max-width: 900px){
+
+	
+	
+}
+
+@media only screen and (max-width: 800px){
+
+	
+}
+
+@media only screen and (max-width: 500px){
+
+	
+}

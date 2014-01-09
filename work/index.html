@@ -1,20 +1,95 @@
 ---
 layout: archive
 title: Work
-css: main
+css: [main, workfront]
 back: whitebackground
 anode: true
 categories: work
 ---
-{% for post in site.categories.work %}
-	<div class="apost">
-		<div class="meta">
-			<h3>{{post.name | }}
-			<p>{{ post.date | date_to_string }}</p>
+
+
+<div class="work">
+	<div class="content">
+		<div class="rocket">
+			<img src="../images/rocket-small.png">
 		</div>
-		<div class="info">
-		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.desc }}  </p>
-		<div class="bar {{post.back}}"></div>
+		<div class="everwonder">
+			<img src="../images/ewl-small.png">
+		</div>
+		<div class="ccomfort">
+			<img src="../images/cc-small.png">
+		</div>
+		<div class="cardboard">
+			<img src="../images/cardboard-small.png">
+		</div>
+		<div class="skimbox">
+			<img src="../images/skimbox-small.png">
 		</div>
 	</div>
-{% endfor %}
+</div>
+
+<div class="experience content">
+
+	<div class="anexperience">
+		<img src="../images/ewllogo.jpg">
+		<div class="desc">
+		<h3>Everwonder Labs</h3>
+		<strong>2014</strong>
+		<p>Freelance designer and prototyper.</p>
+		</div>
+	</div>
+	<div class="anexperience">
+		<img src="../images/rdlogo.jpg">
+		<div class="desc">
+			<h3>Riparian Data</h3>
+			<strong>Product Designer, 2012-2013</strong>
+			<p>Designed iOS app and responsive web app, prototyped for usability tests, and facilitated user interviews and usability tests as the only user-centered designer.</p>
+		</div>
+	</div>
+	<div class="anexperience">
+		<img src="../images/alightlogo.png">
+		<div class="desc">
+			<h3>Alight Learning</h3>
+			<strong>Founder, 2008-2010</strong>
+			<p>Took a sabbatical from school with cofounders to develop a collaborative online workspace for students.</p>
+		</div>
+	</div>
+	<div class="anexperience">
+		<img src="../images/olin-logo.gif">
+		<div class="desc">
+			<h3>Franklin W. Olin College of Engineering</h3>
+			<strong>B.S. in Engineering: Computing, 2006-2011</strong>
+			<p>Studied user-centered design, distributed engineering design, software design.</p>
+		</div>
+	</div>
+</div>
+
+<div class="projects content">
+	<h2>Project Bin</h2>
+	<h3>in various states of completion, disarray... lots of learnings!</h3>
+	<ul>
+		<li><span class="date">2014:</span> valentine's day box (active)</li>
+		<li><span class="date">2013-14:</span> iOS app, web app, and admin web app design for client (active)</li>
+		<li><span class="date">2013:</span> health clinic website redesign for client</li>
+		<li><span class="date">2013:</span> iOS framework for A/B testing mobile</li>
+		<li><span class="date">2013:</span> board game subscription web app</li>
+		<li><span class="date">2012:</span> drinks-tracking web app</li>
+		<li><span class="date">2012:</span> dating history web app</li>
+		<li><span class="date">2011:</span> matching app to help with platonic relationships</li>
+		<li><span class="date">2011:</span> web app for D&#38;D players to find DMs and campaigns</li>
+		<li><span class="date">2011:</span> 6-week cycle from product design to selling D&#38;D kits</li>
+		<li><span class="date">2011:</span> 4-week cycle from product design to selling a magnetic map with 4 others</li>
+		<li><span class="date">2010-11:</span> redesigned and prototype a product for Rockwell Automation with 4 others</li>
+		<li><span class="date">2010:</span> internship to develop recommendations for website and mobile app as a solo UX designer</li>
+		<li><span class="date">2010:</span> designed and prototyped 3 products for Mammut with 6 others in Switzerland and Mexico</li>
+		<li><span class="date">2009:</span> researched and designed an interface to help students transfer credits with 3 others</li>
+		<li><span class="date">2009:</span> researched and designed for art gallery designers with 4 others</li>
+		<li><span class="date">2009:</span> sudoku solver in Verilog with a friend</li>
+		<li><span class="date">2008:</span> internship to prototype a website and help organize a conference</li>
+		<li><span class="date">2008:</span> airplane boarding simulator with 1 other</li>
+		<li><span class="date">2007:</span> spice dispenser with 3 others</li>
+		<li><span class="date">2006:</span> developed project-based undergraduate programming curriculum</li>
+		<li><span class="date">2006:</span> internship to research synapse behavior</li>
+	</ul>
+</div>
+		

@@ -70,6 +70,10 @@ a:hover{
 	color: #f8ca00; /*yellow*/
 }
 
+footer{
+	width: 100%;
+}
+
 .cc{
 	text-align: center;
 	font-size: .5em;

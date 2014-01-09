@@ -18,8 +18,10 @@ back: creambackground
 - Dixit
 - Fluxx
 - Forbidden Island
+- Game of Thrones
 - Infiltration
 - Jambo
+- K2
 - Lost Cities
 - Merchants & Marauders
 - Pandemic
@@ -27,6 +29,7 @@ back: creambackground
 - Power Grid
 - Race for the Galaxy
 - Takenoko
+- Terra Mystica
 - The Resistance
 - We Didn't Playtest This At All
 - Zombie Dice

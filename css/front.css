@@ -1,6 +1,7 @@
 h1{
 	color: #fff;
 	font-size: 3.5em;
+	padding-top: 1em;
 }
 
 h2{
@@ -15,13 +16,14 @@ h3{
 	color: #000;
 }
 
-#top-container h1, #top-container h2{
+.top-container h1, .top-container h2{
 	line-height: .5em;
 	text-align: center;
 }
 
 #front-top{
 	width: 100%;
+	display: none;
 }
 
 .fronttopsection{
