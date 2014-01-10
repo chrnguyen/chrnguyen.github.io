@@ -14,9 +14,22 @@
 	margin: 0 auto;
 }
 
+.projects{
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.projects hr{
+	border:0;
+	width: 100%;
+	background-color:#ccc;
+	height: 1px;
+}
+
 .proj{
 	display:inline;
-	
+	overflow: hidden;
 }
 
 .proj img{
@@ -34,6 +47,7 @@
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	animation-duration: 1s;
+	
 }
 
 .rocket img{
@@ -71,6 +85,7 @@
 	padding-top:2em;
 	padding-left: 6%;
 	padding-right: 5%;
+	opacity: .4;
 
 	-webkit-animation-delay: 1.6s;
 	animation-delay: 1.6s;
