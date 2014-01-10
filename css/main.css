@@ -50,6 +50,7 @@ ul.nav li a:hover{
 h1, h2, h3{
 	font-family: "futura-pt-condensed";
 	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .top-container{
