@@ -28,13 +28,60 @@
 }
 
 .proj{
-	display:inline;
-	overflow: hidden;
+	display:inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.caption{
+	background-color: rgba(20,20,20, .8);
+	font-family: 'futura-pt-condensed';
+	color: #ccc;
+	width: 72%;
+	font-size: .7em;
+	position: absolute;
+	left: 14%;
+	right: 0;
+	top: 25%;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+h3.caption{
+	margin-top: .5em;
+}
+
+.caption h3:after{
+	width: 70%;
+	position: absolute;
+	bottom: 65%;
+	right: 15%;
+	color: #ccc;
+	border-width: 0 0 1px;
+	border-style: solid;
+	content:'';
+}
+
+.btn{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #e97f02;
+	width: 60%;
+	margin-left:20%;
+	color: white;
+}
+
+.proj:hover .caption{
+	opacity: 1;
 }
 
 .proj img{
 	vertical-align: top;
 	opacity: 0;
+	width: 100%;
 	
 	-webkit-animation: fadeIn ease-in 1;
 	-moz-animation: fadeIn ease-in 1;
@@ -48,54 +95,76 @@
 	-moz-animation-duration: 1s;
 	animation-duration: 1s;
 	
+	
+}
+
+.rocket{
+	width: 26%;
+	margin-top: 5em;
 }
 
 .rocket img{
-	width: 26%;
-	padding-top: 5em;
-	
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 	
 }
 
-.everwonder img{
+.everwonder{
 	width: 35%;
-	padding-top:12em;
-	padding-left: 7%;
-	padding-right: 7%;
+	margin-top:12em;
+	margin-left: 7%;
+	margin-right: 7%;
+}
 
+.everwonder img{
 	-webkit-animation-delay: .5s;
 	animation-delay: .5s;
 	
 }
 
+.everwonder .caption{
+	margin-top: -2em;
+}
 
-.ccomfort img{
+.ccomfort{
 	width: 20%;
 	padding-top:10em;
-	
+}
+
+.ccomfort img{
 	-webkit-animation-delay: 1.3s;
 	animation-delay: 1.3s;
 	
 }
 
-.cardboard img{
+.ccomfort .caption{
+	margin-top: 12em;
+}
+
+.cardboard{
 	width: 35%;
-	padding-top:2em;
-	padding-left: 6%;
-	padding-right: 5%;
-	
+	margin-top:2em;
+	margin-left: 6%;
+	margin-right: 5%;
+}
+
+.cardboard img{
 	-webkit-animation-delay: 1.6s;
 	animation-delay: 1.6s;
 	
 }
 
-.skimbox img{
+.cardboard .caption h3:after, .ccomfort .caption h3:after{
+	bottom: 50%;
+}
+
+.skimbox{
 	width: 28%;
 	margin-top:-2em;
-	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
 
+.skimbox img{
 	-webkit-animation-delay: 2s;
 	animation-delay: 2s;
 	

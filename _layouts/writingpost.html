@@ -3,7 +3,7 @@
 			{{ page.date | date_to_string }} &bull; Estimated reading time ~ {{ page.content | number_of_words | divided_by:180 }} min
 			{{content}}
 			<div class="sharing">
-			<a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+			<a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
 			  Share on Facebook
 			</a>
 			<a href="https://twitter.com/share" class="twitter-share-button" data-related="chrnguyen">Tweet</a>
@@ -21,4 +21,4 @@
 			</script>
 			
 			</div></div>
-		{% include footer.html %}
+{% include footer.html %}

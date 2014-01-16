@@ -1,0 +1,37 @@
+{% include header.html %}
+			<div class='container top-container readable'>
+				<div class='top-content'>
+					<div class="meta-info">
+						<h1> {{ page.title }}</h1>
+						<h3> {{page.year}}</h3>
+						<h3> {{page.desc}}</h3>
+						<h3> {{page.role}}</h3>
+					</div>
+					<div class="img-gallery">
+						{% for item in page.gallery %}
+							<img src="/images/portfolio/{{ item }}.png">
+						{% endfor %}
+					</div>
+				</div>
+				<div class='bottom-content'>
+				{{content}}
+				<div class="sharing">
+				<a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
+			  Share on Facebook
+				</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-related="chrnguyen">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<!-- Place this tag where you want the share button to render. -->
+				<div class="g-plus" data-action="share"></div>
+
+				<!-- Place this tag after the last share tag. -->
+			<script type="text/javascript">
+			  (function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			    po.src = 'https://apis.google.com/js/plusone.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+			
+			</div></div>
+			{% include footer.html %}

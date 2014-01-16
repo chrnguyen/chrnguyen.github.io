@@ -1,0 +1,90 @@
+.top-content{
+	margin-top: 3em;
+}
+
+.meta-info{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 2em;
+	max-width: 40%;
+}
+
+.meta-info h3{
+	color: #555;
+	margin: 0;
+	padding:0;
+}
+
+.img-gallery{
+	display: inline-block;
+	max-width: 60%;
+}
+
+.img-gallery img{
+	width: 30%;
+	display: inline-block;
+}
+
+img[alt=achivements]{
+	width: 30%;
+	float: right;
+	padding-left: 1em;
+}
+
+img[alt=skipcompany]{
+	width: 30%;
+	float: left;
+	padding-right: 1em;
+}
+
+img[alt=sbox5]{
+	width: 30%;
+	float: left;
+	padding-right: 1em;
+}
+
+img[alt=sbox6]{
+	width: 40%;
+	float: right;
+	padding-left: 1em;
+}
+
+img[alt=sbox7]{
+	width: 40%;
+	float: left;
+	padding-right: 1em;
+}
+
+.sketches img{
+	display: inline;
+	width: 42%;
+	vertical-align: top;
+}
+
+.cleared{
+	clear:both;
+}
+
+
+@media only screen and (max-width: 1220px){
+
+	.img-gallery{
+		width: 100%;
+		max-width: 100%;
+	}
+	.meta-info{
+		width:100%;
+		max-width: 100%;
+	}
+	
+}
+
+@media only screen and (max-width: 550px){
+	img[alt=achivements], img[alt=skipcompany]{
+		width: 90%;
+		align: center;
+		padding-right: 1em;
+	}
+	
+	
+}
