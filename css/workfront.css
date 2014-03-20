@@ -110,10 +110,10 @@ h3.caption{
 }
 
 .everwonder{
-	width: 35%;
-	margin-top:12em;
+	width: 33%;
+	margin-top:8em;
 	margin-left: 7%;
-	margin-right: 7%;
+	margin-right: 8%;
 }
 
 .everwonder img{
@@ -195,6 +195,10 @@ h3.caption{
 
 @media only screen and (max-width: 770px){
 
+	.everwonder{
+		margin-top: 0;
+	}
+	
 	.everwonder img{
 		padding-top: 8em;
 	}
