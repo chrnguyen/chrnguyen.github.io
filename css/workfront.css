@@ -141,20 +141,20 @@ h3.caption{
 	margin-top: 12em;
 }
 
-.cardboard{
-	width: 35%;
-	margin-top:2em;
-	margin-left: 6%;
-	margin-right: 5%;
+.zboard{
+	width: 21%;
+	margin-top:1em;
+	margin-left: 16%;
+	margin-right: 7%;
 }
 
-.cardboard img{
+.zboard img{
 	-webkit-animation-delay: 1.6s;
 	animation-delay: 1.6s;
 	
 }
 
-.cardboard .caption h3:after, .ccomfort .caption h3:after{
+.zboard .caption h3:after, .ccomfort .caption h3:after{
 	bottom: 50%;
 }
 
