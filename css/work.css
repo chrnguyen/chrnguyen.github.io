@@ -31,7 +31,7 @@ img[alt=achivements]{
 	padding-left: 1em;
 }
 
-img[alt=skipcompany]{
+img[alt=skipcompany], img[alt=old]{
 	width: 30%;
 	float: left;
 	padding-right: 1em;
