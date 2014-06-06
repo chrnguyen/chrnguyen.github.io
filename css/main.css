@@ -1,175 +1,17 @@
 body{
 	margin:0;
 	padding:0;
-	font-family: "adobe-caslon-pro";
+	font-family: "museo-sans";
 	font-size: 1.5em;
 	color: #000; /*black*/
 	width: 100%;
 }
 
-#navbar{
-	font-family: "futura-pt-condensed";
-	text-transform: uppercase;
-	width:100%;
-	position: fixed;
-	top: 0;
-	z-index: 10;
-	filter:alpha(opacity = 80);
-	opacity:.8;
-	background-color: #fff; /*white*/
-}
-
-ul.nav{
-	list-style-type: none;
-	text-align:center;
-	padding: 0;
-}
-
-ul.nav li{
-	display:inline-block;
-	color:#000; /*black*/
-	padding-right: .3em;
-	padding-left: .3em;
-	margin-right: .3em;
-	margin-left: .3em;
-}
-
-ul.nav li a{
-	color:#f8ca00; /*yellow*/
-	text-decoration: none;
-}
-
-ul.nav li a:hover{
-	color: #e97f02; /*orange*/
-}
-
-.selected{
-	border-bottom: .2em solid #e97f02; /*orange*/
-}
-
-h1, h2, h3{
-	font-family: "futura-pt-condensed";
-	text-transform: uppercase;
-	font-weight: 400;
-}
-
-.top-container{
-	padding-top: 4em;
-}
-
 .container{
-	max-width:960px;
-	margin-left:auto;
-	margin-right:auto;
+	width: 980px;
+	margin: 0 auto;
 }
 
-a{
-	color: #e97f02; /*orange*/
-}
-
-a:hover{
-	color: #f8ca00; /*yellow*/
-}
-
-footer{
-	width: 100%;
-}
-
-.cc{
-	text-align: center;
-	font-size: .5em;
-}
-
-.yellowbackground{
-	background-color: #f8ca00; /*yellow*/
-	padding-top: 1em;
-	padding-bottom:1em;
-}
-
-.greybackground{
-	background-color: #555; /*darkgrey*/
-	padding-top: 1em;
-	padding-bottom:1em;
-}
-
-.greybackground h2{
-	color: #fff; /*white*/
-}
-
-.pinkbackground{
-	background-color: #bd1550; /*pink*/
-}
-
-.greenbackground{
-	background-color: #8a9b0f;/*green*/
-}
-
-.greenbackground a{
-	color: #f8ca00; /*yellow*/
-}
-
-.greenbackground a:hover{
-	color: #e97f02; /*orange*/
-}
-
-.yellowbackground a:hover{
-	color: #000; /*black*/
-}
-
-.readable{
-	background-color: #fff;
-}
-
-.top-container.readable{
-	margin-top: -1em;
-	padding: 2.5em;
-}
-
-.twitter-share-button{
-}
-
-.fbshare{
-	font-size: .7em;
-	text-decoration: none;
-	vertical-align: middle;
-	padding-right: 1.5em;
-}
-
-#list-container{
-	width: 100%;
-	padding-top: 4em;
-	padding-bottom:0;
-	padding-left:0;
-	padding-right:0;
-}
-
-.apost{
-	padding: 1.5em;
-}
-
-.bar{
-	padding:0;
-	margin:0;
-	height: .2em;
-}
-
-.wrapimg{
-	float: left;
-	padding-right: .5em;
-	max-width: 100%;
-}
-
-.apost .meta{
-	width: 15%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.apost .info{
-	width: 75%;
-	display: inline-block;
-	vertical-align: top;
-}
 
 @media only screen and (max-width: 500px){
 	body{
@@ -179,8 +21,4 @@ footer{
 		font-size: 1.2em;
 	}
 	
-	#navbar{
-		font-size: 1.1em;
-		
-	}
 }

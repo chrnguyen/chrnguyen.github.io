@@ -1,204 +1,259 @@
+html{
+	background: url(/images/background.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+body{
+	color: #fff;
+}
+
 h1{
 	color: #fff;
-	font-size: 3.5em;
 	padding-top: 1em;
+	text-transform: uppercase;
+	font-weight: 100;
+	opacity: .4;
+	text-align: center;
 }
 
 h2{
-	font-size: 2em;
-}
-
-h3{
-	font-size: 1.5em;
-}
-
-.yellowbackground a:hover{
-	color: #000;
-}
-
-.top-container h1, .top-container h2{
-	line-height: 1.1em;
+	color: #fff;
+	font-weight: 100;
+	opacity: .4;
 	text-align: center;
+	font-size: 1.2em;
+	line-height: .7;
 }
 
-
-.linkyicons:hover img{
-	border-bottom: solid #e97f02; /*orange*/
-	opacity: .3;
+h2 a{
+	color: #fff;
 }
 
-.linkyicons:hover p{
-	visibility: visible;
+h2 a:hover{
+	background: #5ca8dd;
+	text-decoration: none;
+	color: #fff;
 	opacity: 1;
 }
 
-.iconsdesc{
-	color: #898989;
-	text-decoration: none;
-	line-height: 1.1em;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity .2s;
-	font-size: .7em;
-	padding: 0;
-	margin: 0;
+h3{
+	text-transform: uppercase;
+	font-weight: 100;
 }
 
-.linkyicons{
-	display: inline-block;
+strong{
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+
+nav{
+	width: 100%;
 	text-align: center;
-	height: 3em;
-	padding-bottom: 2em;
-	overflow: hidden;
-}
-
-#reachouticons {
-	height: 4em;
-}
-
-#reachouticons .linkyicons{
-	width: 16%;
-	height: 3em;
-}
-
-.icons-adventure{
-	width:75px;
-	display: inline-block;
-	text-align: center;
-}
-
-.icons-adventure img{
-	margin-right:.2em;
-}
-
-#frontmusic, #frontthings, #frontdata{
-	text-align:center;
-	width:30%;
-	display: inline-block;
-}
-
-#frontmusic .linkyicons, #frontthings .linkyicons{
-	width:30%;
-}
-
-#frontthings{
-	margin-left: 4%;
-	margin-right: 4%;
-}
-
-#dataicons .linkyicons{
-	width:23%;
-}
-
-.adventure{
-	line-height:2.5em;
-}
-
-.icons{
-	width:11.5%;
-	display:inline-block;
-	height:3em;
-	text-align:center;
-}
-
-#lovethese{
-	border-top: solid 1px #ccc;
-	border-bottom: solid 1px #ccc;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-#lovethese h3{
-	width: 2em;
-	display: inline-block;
-	text-align: center;
-	margin-left:.2em;
-	margin-right:.3em;
-	margin-top: 0;
-	margin-bottom: 0;
+nav ul li img{
+	max-width: 3.3em;
+	max-height: 3em;
+	opacity: .4;
 }
 
-.icons .iconsdesc{
-	visibility: visible;
+img#nav-riparian{
+	margin-bottom: -.2em;
+}
+
+img#nav-rocket{
+	height: 55px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 2em;
+	
+	
+}
+
+nav ul li p{
+	text-transform: uppercase;
+	font-size: .6em;
+	font-weight: 100;
+	opacity: .4;
+	margin: 0;
+	
+}
+
+nav li.selected p, nav li:hover p, nav li:hover img, nav li.selected img{
 	opacity: 1;
 }
 
-.icons:hover a img{
-	opacity: .3;
+nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
+	
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 
-.icons:hover a p{
-	color: #f8ca00;
+.contacticons{
+	
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
-#loveicons{
+.hidden{
+	display:none;
+}
+
+.displayed{
+	display: block;
+}
+
+
+.screenshots{
+	padding-top: 1em;
+	background-image: url(/images/outline.png);
+	background-size: 244px 510px;
+	background-repeat: no-repeat;
+	width: 244px;
+	height:510px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 40px;
+	
+}
+
+.work-right{
+	opacity: .4;
+	font-weight: 100;
+	min-height: 510px;
+	margin-left: 300px;
+}
+
+.screenshots video{
+	padding: 68px 22px;
+}
+
+footer{
+	width: 100%;
+	padding: 1em;
+}
+
+footer h2{
+	text-align: left;
+}
+
+footer h2 a{
+	text-decoration: none;
+	color: #acf2e6;
+}
+
+footer h2 a:hover{
+	color: #fff;
+}
+
+#contact{
 	display: inline-block;
-	width:90%;
+	vertical-align: middle;
+	max-width: 40%;
 }
 
-.adventuretext{
+.callto, .readmore{
+	border: 2px #acf2e6 solid;
+	padding: .3em;
+	width: 7em;
 	display: inline-block;
+	vertical-align: middle;
 }
 
-#me{
-	display: inline-block;
+.callto:hover{
+	background-color: #fff;
+	border: 2px #fff solid;
+}
+
+.callto:hover img{
+	opacity: 1;
+}
+
+#follow:hover{
+	color: #5ca8dd;
+}
+
+#friend:hover{
+	color: #3b5998;
+}
+
+.callto:hover img, .callto:hover h4{
+	opacity: 1;
+}
+
+.callto img{
+	height: .8em;
+	padding: .3em .5em;
+	float: left;
+	opacity: .4;
+}
+
+.callto h4, .readmore h4{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 100;
+	margin: .1em;
+}
+
+.readmore{
+	text-align: center;
+	margin: 2em 15%;
+	width: 68%;
+}
+
+.readmore:hover{
+	background-color: #acf2e6;
+	color:#000;
+}
+
+#follow{
+	margin-left: 4em;
+}
+
+#friend{
+	margin-left: 2em;
+	width: 5.8em;
+}
+
+.contacticons{
+	height: 1.2em;
+	opacity: .4;
+	padding-right: 1em;
+	padding-top: .5em;
+}
+
+.contacticons:hover{
+	opacity:1;
 }
 
 @media only screen and (max-width: 908px){
 
-	
-	#me{
-		display: none;
-		
-	}
 	
 }
 
 @media only screen and (max-width: 800px){
 
 	
-	#frontmusic, #frontthings, #frontdata{
-		width: 100%;
-		
-	}
-	#frontthings{
-		margin:0;
-	}
-	
-	.yellowbackground.top-container{
-		padding-bottom: 6em;
-	}
-	
-	#reachouticons .linkyicons{
-		width: 30%;
-	}
-	
-	.icons{
-		width: 32%;
-		height: 5em;
-		text-align: center;
-	}
-	
-	#lovethese h3{
-		width: 100%;
-		text-align: center;
-	}
-	
 }
 
 @media only screen and (max-width: 500px){
 
-	.icons-adventure{
-		width: 3em;
-	}
-	
-	.icons-adventure img{
-		max-width: 2em;
-		max-height: 2em;
-	}
-	
-	#navbar{
-		font-size: 1.1em;
 		
 	}
 }
