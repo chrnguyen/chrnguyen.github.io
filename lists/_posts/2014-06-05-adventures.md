@@ -1,7 +1,8 @@
 ---
 title: Adventures
-layout: default
-css: main
+layout: writingpost
+css: [main, archive]
+categories: lists
 ---
 
 ## Reclaiming my childhood

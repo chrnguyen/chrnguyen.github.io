@@ -7,6 +7,11 @@ body{
 	color: #fff;
 }
 
+footer{
+	background: none;
+	padding: 0 0 2em 0;
+}
+
 h1{
 	color: #fff;
 	padding-top: 1em;
@@ -144,31 +149,7 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	padding: 68px 22px;
 }
 
-footer{
-	width: 100%;
-	padding: 1em;
-}
-
-footer h2{
-	text-align: left;
-}
-
-footer h2 a{
-	text-decoration: none;
-	color: #acf2e6;
-}
-
-footer h2 a:hover{
-	color: #fff;
-}
-
-#contact{
-	display: inline-block;
-	vertical-align: middle;
-	max-width: 40%;
-}
-
-.callto, .readmore{
+.readmore{
 	border: 2px #acf2e6 solid;
 	padding: .3em;
 	width: 7em;
@@ -176,35 +157,7 @@ footer h2 a:hover{
 	vertical-align: middle;
 }
 
-.callto:hover{
-	background-color: #fff;
-	border: 2px #fff solid;
-}
-
-.callto:hover img{
-	opacity: 1;
-}
-
-#follow:hover{
-	color: #5ca8dd;
-}
-
-#friend:hover{
-	color: #3b5998;
-}
-
-.callto:hover img, .callto:hover h4{
-	opacity: 1;
-}
-
-.callto img{
-	height: .8em;
-	padding: .3em .5em;
-	float: left;
-	opacity: .4;
-}
-
-.callto h4, .readmore h4{
+.readmore h4 a{
 	text-transform: uppercase;
 	opacity: .4;
 	font-weight: 100;
@@ -220,26 +173,6 @@ footer h2 a:hover{
 .readmore:hover{
 	background-color: #acf2e6;
 	color:#000;
-}
-
-#follow{
-	margin-left: 4em;
-}
-
-#friend{
-	margin-left: 2em;
-	width: 5.8em;
-}
-
-.contacticons{
-	height: 1.2em;
-	opacity: .4;
-	padding-right: 1em;
-	padding-top: .5em;
-}
-
-.contacticons:hover{
-	opacity:1;
 }
 
 @media only screen and (max-width: 908px){

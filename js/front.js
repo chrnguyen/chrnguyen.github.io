@@ -5,19 +5,6 @@ function playVideo(videoName){
 	videoName.play();
 }
 
-
-function changeImg(imgId, imgName){
-	document.getElementById(imgId).src = '/images/'+imgName+'.png';
-}
-
-function onHover(obj, imgId, imgName){
-	if (!obj.className){
-		changeImg(imgId, imgName);
-	}
-	else{
-	}
-}
-
 function changeOver(obj,imgId,imgName){
 	document.getElementById(imgId).className = 'hovering';
 	onHover(obj,imgId,imgName)

@@ -1,7 +1,7 @@
 ---
 title: Embedding User Experience Throughout a Small Company
 layout: writingpost
-css: main
+css: [main, archive]
 back: greenbackground
 categories: writings
 desc: A few things that I've tried to help embed UX in an agile, lean framework.

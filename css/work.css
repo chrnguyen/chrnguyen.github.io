@@ -32,7 +32,7 @@ img[alt=achivements]{
 }
 
 img[alt=skipcompany], img[alt=old]{
-	width: 30%;
+	width: 18%;
 	float: left;
 	padding-right: 1em;
 }
@@ -44,7 +44,7 @@ img[alt=sbox5]{
 }
 
 img[alt=sbox6]{
-	width: 40%;
+	width: 0%;
 	float: right;
 	padding-left: 1em;
 }
@@ -57,7 +57,7 @@ img[alt=sbox7]{
 
 .sketches img{
 	display: inline;
-	width: 42%;
+	width: 20%;
 	vertical-align: top;
 }
 

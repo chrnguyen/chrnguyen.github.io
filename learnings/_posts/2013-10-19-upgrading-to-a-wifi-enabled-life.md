@@ -1,13 +1,13 @@
 ---
 title: Upgrading to a Wifi-Enabled Life
 layout: writingpost
-css: main
+css: [main, archive]
 back: yellowbackground
 categories: writings
 desc: Some products to keep an eye out for when finding peripherals for your phone and home.
 ---
 
-<img src="{{site.url}}/writings/images/ninja_block.jpg" class="wrapimg"></img> Hardware is the new frontier for startups, as rapid prototyping technology has become more accessible to individuals. [Microcontrollers][1] are becoming accessible to web programmers. [Ninja Blocks][13] integrates sensors particularly for the home that will makes it easy to connect devices together and online. CAD something, upload it online, and [have a three-dimensional prototype][2] at your door. The Internet also makes it easier to outsource manufacturing, although that world is certainly a mystery to someone who's primarily worked in digital products. [Kickstarter][k] and [Indiegogo][4] have become places for the more promising projects to be funded by other individuals, and enable entrepreneurs to get capital without having to go to a VC. As internet-enabled devices are pretty easy to create with either WiFi or using a cell network, and the era of the smartphone that will be the control for everything around you has finally arrived, both entrepreneurs and larger manufacturers are taking notice. One of the first problems people are apt to take notice of is how most appliances at home aren't all too smart. 
+<img src="/images/writings/ninja_block.jpg" class="wrapimg"></img> Hardware is the new frontier for startups, as rapid prototyping technology has become more accessible to individuals. [Microcontrollers][1] are becoming accessible to web programmers. [Ninja Blocks][13] integrates sensors particularly for the home that will makes it easy to connect devices together and online. CAD something, upload it online, and [have a three-dimensional prototype][2] at your door. The Internet also makes it easier to outsource manufacturing, although that world is certainly a mystery to someone who's primarily worked in digital products. [Kickstarter][k] and [Indiegogo][4] have become places for the more promising projects to be funded by other individuals, and enable entrepreneurs to get capital without having to go to a VC. As internet-enabled devices are pretty easy to create with either WiFi or using a cell network, and the era of the smartphone that will be the control for everything around you has finally arrived, both entrepreneurs and larger manufacturers are taking notice. One of the first problems people are apt to take notice of is how most appliances at home aren't all too smart. 
 
 [1]: http://tessel.io/ "Tessel"
 [2]: http://shapeways.com "Shapeways"
@@ -15,7 +15,7 @@ desc: Some products to keep an eye out for when finding peripherals for your pho
 [4]: http://indiegogo.com "IndieGoGo"
 [13]: http://ninjablocks.com "Ninja Blocks"
 
-<img src="{{site.url}}/writings/images/philips-hue.jpg" class="wrapimg"></img>
+<img src="/images/writings/philips-hue.jpg" class="wrapimg"></img>
 Lighting is one of the first things we've seen to become internet-enabled. My apartment has mostly [Philips Hue][5] LED bulbs, which are also sold at Apple stores as accessories for your tablet or smartphone. From my iPhone, I can control my lights-- not only turn them on/off, but adjust colors and dim them as needed. Coupled with [IFTTT][6], the lights turn blue when it's going to rain and I like them on a bit after sunset-- there are ton of other recipes that you can put together or use for your own home. The only problem is that it does confuse housesitters, so we had to put together a guide to our apartment, which hopefully isn't as pretentious as it sounds. Other alternatives in this space include [LIFX][7], which made waves a few years ago when it was able to raise $1.3 million through Kickstarter. [iLumi][8] is similarly backed by [Kickstarter][k], though at a smaller magnitude, and is via Bluetooth. [Insteon]'s[9] been around, dimming lightbulbs from iOS and Android devices for a while now. I'm sure you can find an alternative for your own particular problems around lighting. 
 
 [5]: https://www.meethue.com/en-US "Hue"
@@ -35,7 +35,7 @@ Of course, Japan's obsession with toilets has given way to creating various auto
 [11]: http://www.inax-usa.com/technology/satis/ "Satis"
 [12]: http://www.theatlantic.com/technology/archive/2013/08/it-now-appears-possible-to-hack-a-fancy-japanese-toilet/278322/
 
-<img src="{{site.url}}/writings/images/WS-50-front-lb-app.png" class="wrapimg"></img>
+<img src="/images/writings/withings.png" class="wrapimg"></img>
 Though I don't have a Satis in my bathroom, I definitely have a [Withings scale] that gives me data on how my body's doing. Withings now has a more extensive line that includes a blood pressure monitor, baby monitor, and an activity tracker to empower you with data to help you. Their app works pretty well, and I love how everything works together fairly seamlessly without too much help.
 [14]: http://www.withings.com/en/scales "Withings scale"
 
@@ -66,7 +66,7 @@ There's also a pretty fierce battle along the control-everything lines. Usually 
 [26]: http://www.fibaro.com/en "Fibaro"
 
 
-<img src="{{site.url}}/writings/images/Outbox_iDevices.jpg" class="wrapimg"></img>
+<img src="/images/writings/Outbox_iDevices.jpg" class="wrapimg"></img>
 A bit more low-tech and outside your home, but fairly cool, is [Outbox]. When I was traveling a bit more, I used this awesome service to get my mail and scan it for me. I know, it sounds crazy. But it was nice to not worry about missing mail when I was away, and it was easy to request pieces of mail that I wanted or advertisements that weren't scanned.  I desperately want USPS to partner with them, so mail wouldn't even have to be sent to my apartment and maybe they wouldn't run such a deficit.
 
 [27]: https://www.outboxmail.com/ "Outbox"

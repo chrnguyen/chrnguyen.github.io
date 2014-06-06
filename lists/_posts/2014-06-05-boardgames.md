@@ -1,7 +1,7 @@
 ---
 title: Board Games
-layout: default
-css: main
+layout: writingpost
+css: [main,archive]
 back: creambackground
 ---
 

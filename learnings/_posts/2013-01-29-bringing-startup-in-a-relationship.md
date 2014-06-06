@@ -1,7 +1,7 @@
 ---
 title: Bringing startup into relationship
 layout: writingpost
-css: main
+css: [main, archive]
 back: pinkbackground
 categories: writings
 desc: Here are some practices that my significant other and I have adopted from the startup world.

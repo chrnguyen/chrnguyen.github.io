@@ -1,4 +1,14 @@
 {% include header.html %}
+	<header>
+		<h1>Writings from the Desk of Christina Nguyen</h1>
+		<h2>&hearts; lean UX, user research at startups, robots, education, board games</h2>
+		<div id="btn-1" class="btn">
+			<a href="/articles">More Articles</a>
+		</div>
+		<div id="btn-2" class="btn">
+			<a href="/">About Me</a>
+		</div>
+	</header>
 			<div class='container top-container readable'>
 				<div class='top-content'>
 					<div class="meta-info">
@@ -15,23 +25,24 @@
 				</div>
 				<div class='bottom-content'>
 				{{content}}
-				<div class="sharing">
-				<a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u={{site.baseurl}}{{page.url}}" target="_blank">
+					<div class="sharing">
+						<a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u={{site.baseurl}}{{page.url}}" target="_blank">
 			  Share on Facebook
-				</a>
-				<a href="https://twitter.com/share" class="twitter-share-button" data-related="chrnguyen">Tweet</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				<!-- Place this tag where you want the share button to render. -->
-				<div class="g-plus" data-action="share"></div>
+					</a>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-related="chrnguyen">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<!-- Place this tag where you want the share button to render. -->
+					<div class="g-plus" data-action="share"></div>
 
-				<!-- Place this tag after the last share tag. -->
-			<script type="text/javascript">
-			  (function() {
-			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-			    po.src = 'https://apis.google.com/js/plusone.js';
-			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-			  })();
-			</script>
-			
-			</div></div>
+					<!-- Place this tag after the last share tag. -->
+					<script type="text/javascript">
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+					</script>
+				</div>
+			</div>
+		</div>
 			{% include footer.html %}

@@ -1,4 +1,121 @@
-html{
-	background: url(/images/background.jpg) no-repeat center center;
-	background-size: cover;
+body{
+	font-size: 1em;
+}
+
+.top-container.readable{
+	padding-bottom: 3em;
+	padding-top: 3em;
+	font-size: 1.2em;
+}
+
+header{
+	background-color: #acf2e6;
+	color: rgba(0,0,0,.7);
+	text-align: center;
+	font-weight: 100;
+}
+
+a{
+	color: #89c1b8;
+	text-decoration: none;
+}
+
+header h1{
+	margin: 0;
+	padding-top: 1em;
+}
+
+header h2{
+	font-size: 1.2em;
+	font-weight: 100;
+	text-transform: none;
+	color: rgba(0,0,0,.2);
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+h2{
+	color: #334845;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.sectionheading{
+	text-align:center;
+}
+
+.headingicon{
+	height: .8em;
+	padding-right: .2em;
+}
+
+.btn{
+	padding-top: .5em;
+	padding-bottom: 2.8em;
+}
+
+.btn a{
+	padding: .5em 1em;
+	border: 1px #fff solid;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.btn a:hover{
+	color:#89c1b8;
+	background-color: #fff;
+	border: 1px #89c1b8 solid;
+}
+
+#btn-1, #btn-2{
+	width: 40%;
+	display: inline-block;
+}
+
+.apost{
+	width: 100%;
+	color: #ccc;
+}
+
+.apost a{
+	text-decoration: none;
+	color: #89c1b8;
+	font-weight: 300;
+}
+
+.apost a:hover{
+	background: #89c1b8;
+	color: #fff;
+}
+
+.info{
+	width: 80%;
+	display: inline-block;
+}
+
+.meta{
+	width: 15%;
+	text-align: center;
+	display: inline-block;
+}
+
+footer{
+	font-size: 1.3em;
+}
+
+.meta-info{
+	color: #ccc;
+}
+
+.fbshare{
+	color: #3b5998;
+	text-decoration: none;
+	font-size: .8em;
+	padding-right: 1em;
+	vertical-align: text-top;
 }

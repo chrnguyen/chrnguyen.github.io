@@ -1,0 +1,57 @@
+---
+layout: archive
+title: Writings
+css: [main,archive]
+js: main
+back: whitebackground
+anode: true
+categories: writings
+---
+
+<h2 class="sectionheading"><img class="headingicon" src="/images/learningsicon.png">learnings</h2>
+{% for post in site.categories.learnings %}
+	<div class="apost">
+		<div class="info">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		</div>
+		<div class="meta">
+			<p>&sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
+		</div>
+	</div>
+{% endfor %}
+
+<h2 class="sectionheading"><img class="headingicon" src="/images/opinionsicon.png">opinions</h2>
+{% for post in site.categories.writings %}
+	<div class="apost">
+		<div class="info">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		</div>
+		<div class="meta">
+			<p>&sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
+		</div>
+	</div>
+{% endfor %}
+
+<h2 class="sectionheading"><img class="headingicon" src="/images/projectsicon.png">projects</h2>
+{% for post in site.categories.work %}
+	<div class="apost">
+		<div class="info">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		</div>
+		<div class="meta">
+			<p>&sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
+		</div>
+	</div>
+{% endfor %}
+
+<h2 class="sectionheading"><img class="headingicon" src="/images/listsicon.png">lists</h2>
+{% for post in site.categories.lists %}
+	<div class="apost">
+		<div class="info">
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		</div>
+		<div class="meta">
+			<p>&sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
+		</div>
+	</div>
+{% endfor %}

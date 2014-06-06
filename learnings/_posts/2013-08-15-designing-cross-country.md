@@ -1,7 +1,7 @@
 ---
 title: Designing Cross-Country
 layout: writingpost
-css: main
+css: [main, archive]
 back: greenbackground
 categories: writings
 desc: A few tips and a pros/cons list about working remotely with your development team as a UX designer.
