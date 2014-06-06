@@ -34,7 +34,7 @@ h2 a{
 }
 
 h2 a:hover{
-	background: #5ca8dd;
+	background: #acf2e6;
 	text-decoration: none;
 	color: #fff;
 	opacity: 1;
@@ -75,6 +75,8 @@ img#nav-rocket{
 
 nav ul{
 	list-style: none;
+	margin: 0;
+	padding: 1em 0;
 }
 
 nav ul li{
@@ -209,18 +211,44 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	color:#000;
 }
 
-@media only screen and (max-width: 908px){
-
-	
+@media only screen and (max-width: 1080px){
+	body{
+		font-size: 1.2em;
+	}
+	p{
+		line-height: 1.5em;
+	}
 }
 
-@media only screen and (max-width: 800px){
-
+@media only screen and (max-width: 830px){
+	.screenshots{
+		float:none;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.work-right{
+		margin-left: 0;
+	}
+	.work-right strong{
+		color: #ccc;
+	}
+	
+	h2{
+		line-height:1;
+	}
 	
 }
 
 @media only screen and (max-width: 500px){
-
+	
+	nav ul{
+		padding:0;
+	}
+	
+	nav ul li{
+		margin: 0 1em;
+	}
 		
 	}
 }
