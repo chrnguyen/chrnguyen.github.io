@@ -25,7 +25,8 @@ desc: "Hi, my name is Christina Nguyen and I am a product designer in SF. I writ
 	<div id="zboard" class="displayed">
 
 		<div class="screenshots">
-			<video width="203" id="zboardvideo" height="360" onMouseOver="zboardvideo.play();" onMouseOut="zboardvideo.pause()" muted loop preload>
+			<div id="pulse-zboard" class="hoveronme"></div>
+			<video width="203" id="zboardvideo" height="360" onMouseOver="playVideo('zboard');" onMouseOut="pauseVideo('zboard')" muted loop preload>
 				<source src="/images/zboardvideo.mp4" type="video/mp4">
 				<source src="/image/zboardvideo.oggtheora.ogv" type="video/ogg">
 			</video>
@@ -48,7 +49,8 @@ desc: "Hi, my name is Christina Nguyen and I am a product designer in SF. I writ
 
 	<div id="riparian" class="hidden">
 		<div class="screenshots">
-			<video width="203" id="riparianvideo" height="360" onMouseOver="riparianvideo.play();" onMouseOut="riparianvideo.pause()" loop muted>
+			<div id="pulse-riparian" class="hoveronme"></div>
+			<video width="203" id="riparianvideo" height="360" onMouseOver="playVideo('riparian');" onMouseOut="pauseVideo('riparian');" loop muted>
 				<source src="/images/riparianvideo.mp4" type="video/mp4">
 				<source src="/image/riparianvideo.oggtheora.ogv" type="video/ogg">
 			</video>
@@ -73,7 +75,8 @@ desc: "Hi, my name is Christina Nguyen and I am a product designer in SF. I writ
 	<div id="rocket" class="hidden">
 		
 		<div class="screenshots">
-			<video width="203" id="rocketvideo" height="360" onMouseOver="rocketvideo.play();" onMouseOut="rocketvideo.pause()" loop muted>
+			<div id="pulse-rocket" class="hoveronme"></div>
+			<video width="203" id="rocketvideo" height="360" onMouseOver="playVideo('rocket');" onMouseOut="pauseVideo('rocket')" loop muted>
 				<source src="/images/rocketvideo.mp4" type="video/mp4">
 				<source src="/image/rocketvideo.oggtheora.ogv" type="video/ogg">
 			</video>

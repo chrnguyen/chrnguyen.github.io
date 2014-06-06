@@ -1,8 +1,15 @@
 var _targetdiv = null;
 
 function playVideo(videoName){
-	console.log('play '+videoName);
-	videoName.play();
+	console.log('playing '+videoName);
+	document.getElementById('pulse-'+videoName).className = 'hoveringonme';
+	document.getElementById(videoName+'video').play();
+}
+
+function pauseVideo(videoName){
+	console.log('pausing '+videoName);
+	document.getElementById('pulse-'+videoName).className = 'hoveronme';
+	document.getElementById(videoName+'video').pause();
 }
 
 function changeOver(obj,imgId,imgName){
