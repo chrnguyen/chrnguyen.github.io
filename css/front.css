@@ -162,6 +162,8 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	opacity: .4;
 	font-weight: 100;
 	margin: .1em;
+	text-decoration: none;
+	color: #fff;
 }
 
 .readmore{
@@ -172,6 +174,13 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 
 .readmore:hover{
 	background-color: #acf2e6;
+}
+
+.readmore h4{
+	margin:0;
+}
+
+.readmore h4 a:hover{
 	color:#000;
 }
 
