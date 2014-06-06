@@ -3,9 +3,11 @@ body{
 }
 
 .top-container.readable{
-	padding-bottom: 3em;
-	padding-top: 3em;
 	font-size: 1.2em;
+}
+
+p{
+	line-height: 1.5em;
 }
 
 header{
