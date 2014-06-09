@@ -3,12 +3,14 @@ var _targetdiv = null;
 function playVideo(videoName){
 	console.log('playing '+videoName);
 	document.getElementById('pulse-'+videoName).className = 'hoveringonme';
+	document.getElementById('hover-'+videoName).style.visibility = 'hidden';
 	document.getElementById(videoName+'video').play();
 }
 
 function pauseVideo(videoName){
 	console.log('pausing '+videoName);
 	document.getElementById('pulse-'+videoName).className = 'hoveronme';
+	document.getElementById('hover-'+videoName).style.visibility = 'visible';
 	document.getElementById(videoName+'video').pause();
 }
 

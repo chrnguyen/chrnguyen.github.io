@@ -138,14 +138,42 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	
 }
 
+.hoverlabel{
+	width:100px;
+	height: 20px;
+	background: rgba(255,255,255,.05);
+	position: relative;
+	border-radius: 7px;
+	font-size: 12px;
+	color:rgba(255,255,255,.5);
+	padding: 10px 6px 5px 3px;
+	text-align: center;
+	left: 10px;
+	top: -80px;
+	
+}
+
+.hoverlabel:after{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 10px 8px 0;
+	border-color: rgba(255,255,255,.05) transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	bottom: -10px;
+	left: 47px;
+}
+
 .hoveronme {
 	border: 3px solid #fff;
 	-webkit-border-radius: 30px;
 	height: 15px;
 	width: 15px;
 	position: relative;
-	left:200px;
-	top:30px;
+	left:55px;
+	top:15px;
 	-webkit-animation: pulsate 1s ease-out;
 	-webkit-animation-iteration-count: infinite;
 	opacity: 0.0
@@ -173,7 +201,7 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 }
 
 .screenshots video{
-	padding: 46px 22px;
+	padding: 12px 22px;
 }
 
 .readmore{
@@ -209,6 +237,29 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 
 .readmore h4 a:hover{
 	color:#000;
+}
+
+@media only screen and (max-device-width: 799px){
+	
+	.screenshots{
+		background-image: none;
+	}
+	
+	.screenshots video{
+		padding: 0 22px;
+		margin-top: -34px;
+	}
+	
+	video{
+		width: 203px;
+		height: 360px;
+	}
+	
+	.hoveronme{
+		display:none;
+	}
+	
+	
 }
 
 @media only screen and (max-width: 1080px){
@@ -248,7 +299,5 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	
 	nav ul li{
 		margin: 0 1em;
-	}
-		
 	}
 }
