@@ -7,7 +7,6 @@ categories: lists
 
 ## Reclaiming my childhood
 - Fly a kite
-- Create a hacking space for people to do good
 - Have a room dedicated to LEGOs
 - Finish a videogame
 - Bake bread
@@ -37,12 +36,12 @@ categories: lists
 - Bake 50 things at least 5 times and create my own variations
 - Tutor someone in something
 - Create 30 jobs through a business I started, and those jobs are still there 5 years later
-- Start a self-sustaining non-profit, or a triple-bottom-line for-profit organization
+- Start a self-sustaining non-profit
 - Work on at least one appropriate technology design project
+- Create a hacking space for people to do good
 
 ## Grownup stuffs
 - Adopt and take care of a dog
-- Quit a job to start a company
 - Learn to be comfortable in high heels
 - <del>Wine and cheese nights</del>
 

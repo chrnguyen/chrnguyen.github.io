@@ -233,7 +233,7 @@ nav ul li p, nav ul li img, .callto, .readmore, #rocket, #riparian, #zboard{
 	margin:0;
 }
 
-.readmore h4 a:hover{
+.readmore:hover h4 a{
 	color:#000;
 }
 

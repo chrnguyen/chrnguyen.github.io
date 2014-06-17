@@ -98,10 +98,19 @@ footer h2 a:hover{
 	margin-top: 1em;
 }
 
-#friend{
+#hire{
 	margin-left: 5%;
 	margin-top: 1em;
-	width: 5.8em;
+	width: 6em;
+	text-align: center;
+}
+
+#hire:hover{
+	background-color: #acf2e6;
+}
+
+#hire:hover h4{
+	color:#000;
 }
 
 .contacticons{
