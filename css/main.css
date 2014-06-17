@@ -105,12 +105,16 @@ footer h2 a:hover{
 	text-align: center;
 }
 
+#hire a{
+	text-decoration:none;
+}
+
 #hire:hover{
 	background-color: #acf2e6;
 }
 
-#hire:hover h4{
-	color:#000;
+#hire:hover a{
+	color:rgba(0,0,0,.8);
 }
 
 .contacticons{
