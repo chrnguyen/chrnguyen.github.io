@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{{page.title}} | {{site.name}}</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="{{page.description}}">
-		{% if page.css %}
-			{% for item in page.css %}
-				<link rel="stylesheet" href="/css/{{ item }}.css" type="text/css" />
-			{% endfor %}
-		{% endif %}
-		<script type="text/javascript" src="//use.typekit.net/muu8svg.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		{% if page.js %}
-			{% for item in page.js %}
-				<script type="text/javascript" src="/js/{{ item }}.js"></script>
-			{% endfor %}
-		{% endif %}
-	</head>
-	<body class="{{page.back}}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{{page.title}} | {{site.name}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{page.description}}">
+    {% if page.css %}
+      {% for item in page.css %}
+        <link rel="stylesheet" href="/css/{{ item }}.css" type="text/css" />
+      {% endfor %}
+    {% endif %}
+    <script type="text/javascript" src="//use.typekit.net/muu8svg.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% if page.js %}
+      {% for item in page.js %}
+        <script type="text/javascript" src="/js/{{ item }}.js"></script>
+      {% endfor %}
+    {% endif %}
+  </head>
+  <body>

@@ -1,7 +1,7 @@
 ---
 title: The Commentary on Female Founders Conference
 layout: writingpost
-css: [main, archive]
+css: [main]
 back: pinkbackground
 categories: writings
 desc: Thoughts on YC's Female Founders Conference

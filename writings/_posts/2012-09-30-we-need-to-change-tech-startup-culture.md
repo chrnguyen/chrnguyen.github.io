@@ -1,7 +1,7 @@
 ---
 title: We need to change tech startup culture&#58; Gender Edition
 layout: writingpost
-css: [main, archive]
+css: [main]
 back: pinkbackground
 categories: writings
 desc: Without the perspectives of markedly different experiences, we miss out on empathy and understanding of different verticals and markets, as well as utilizing the full potential of humanity.

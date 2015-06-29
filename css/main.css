@@ -1,154 +1,180 @@
-body{
-	margin:0;
-	padding:0;
-	font-family: "museo-sans";
-	font-size: 1.5em;
-	color: #000; /*black*/
-	width: 100%;
+body {
+  zoom: 1;
+  font-family: 'adobe-caslon-pro';
+  color: #888;
+  background-color: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  position: fixed;
+  padding: 3em 1em 3em 3em;
+  text-align: center;
+  font-family: 'sofia-pro';
+  text-transform: uppercase;
+  color: #bbb;
+  fill: #bbb;
+  letter-spacing: .1em;
+}
+
+.sidebar a,
+.project a {
+  text-decoration: none;
+  color: #bbb;
+  fill: #bbb;
+}
+
+.sidebar a:hover {
+  color: #e9d594;
+  fill:  #e9d594;
+}
+.home-img {
+  width: 2em;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  padding-left: 8em;
+}
+
+.content {
+  max-width: 60em;
+  margin: 0 auto 3em;
+  padding: 3em;
+}
+
+.post-content,
+.bottom-content {
+  font-size: 1.3em;
+  max-width: 45em;
+}
+
+.post-content h2,
+.bottom-content h2 {
+  font-size: .9em;
+  margin-top: 1.1em;
+  margin-bottom: .5em;
+}
+
+.bottom-content h3 {
+  font-family: 'adobe-caslon-pro';
+  text-transform: none;
+  margin-top: 1em;
+  font-size: 1.1em;
+  color: #808080;
+}
+
+.post-content p,
+.bottom-content p {
+  margin-bottom: .7em;
+}
+
+.post-content img {
+  max-width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  overflow: hidden;
+}
+
+.full-width h1,
+.full-width h2 {
+  text-align: center;
+}
+
+.full-width h1 {
+  margin-top: 1.5em;
+  margin-bottom: .3em;
+}
+
+.project {
+  width: 48%;
+  padding: 2em 0;
+  float: left;
+  text-align: center;
+  font-family: 'sofia-pro';
+  text-transform: uppercase;
+}
+
+.project:first-child {
+  margin-right: 4%;
+}
+
+.project-image {
+  width: 100%;
+  height: 16.6em;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.apost {
+  overflow: hidden;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.info {
+  float: left;
+  max-width: calc(100% - 10em);
+}
+
+.meta {
+  float: right;
+}
+
+.sharing {
+  margin-top: 3em;
 }
 
 .wrapimg{
-	float: left;
-	padding-right: .5em;
-	max-width: 100%;
+  float: left;
+  padding-right: .5em;
+  max-width: 100%;
 }
 
-.container{
-	width: 980px;
-	margin: 0 auto;
-	padding-top: 2em;
-	padding-bottom: 3em;
+h1 {
+  color: #bbb;
+  font-size: 2.3em;
+  letter-spacing: .03em;
 }
 
-footer{
-	width: 100%;
-	background-color: #89c1b8;
-	padding-bottom: 2em;
-	padding-left: 2em;
+h2, h3 {
+  color: #bbb;
+  font-family: 'sofia-pro';
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
-footer h2{
-	text-align: left;
-	text-transform: uppercase;
-	font-weight: 100;
-	line-height: 1em;
-	margin-bottom:0;
+a {
+  color: #888;
 }
 
-footer h2 a{
-	text-decoration: none;
-	color: #acf2e6;
+a:hover {
+  color: #e9d594;
 }
 
-footer h2 a:hover{
-	color: #fff;
+a img:hover {
+  opacity: .6;
 }
 
-#contact{
-	display: inline-block;
-	vertical-align: middle;
-	max-width: 50%;
+footer {
+  clear: both;
+  background-color: #555;
+  padding: 1em 1em .5em 1em;
 }
 
-.callto{
-	border: 2px #acf2e6 solid;
-	padding: .3em;
-	width: 7em;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.callto:hover{
-	background-color: #fff;
-	border: 2px #fff solid;
-}
-
-.callto:hover img{
-	opacity: 1;
-}
-
-#follow:hover{
-	color: #5ca8dd;
-}
-
-#friend:hover{
-	color: #3b5998;
-}
-
-.callto:hover img, .callto:hover h4{
-	opacity: 1;
-}
-
-.callto img{
-	height: .8em;
-	padding: .3em .5em;
-	float: left;
-	opacity: .4;
-}
-
-.callto h4{
-	text-transform: uppercase;
-	opacity: .8;
-	font-weight: 100;
-	margin: .1em;
-}
-
-#follow{
-	margin-left: 10%;
-	margin-top: 1em;
-}
-
-#hire{
-	margin-left: 5%;
-	margin-top: 1em;
-	width: 6em;
-	text-align: center;
-}
-
-#hire a{
-	text-decoration:none;
-	color: #fff;
-}
-
-#hire:hover{
-	background-color: #acf2e6;
-}
-
-#hire:hover a{
-	color:rgba(0,0,0,.8);
-}
-
-.contacticons{
-	height: 1.2em;
-	opacity: .4;
-	padding-right: 1em;
-	padding-top: .5em;
-}
-
-.contacticons:hover{
-	opacity:1;
-}
-
-@media only screen and (max-width: 1040px){
-	.container{
-		width: 96%;
-		margin: 0 2%;
-	}
-	#contact h2, #follow, #friend{
-		font-size: .8em;
-	}
-}
-
-@media only screen and (max-width: 720px){
-	#follow, #friend{
-		margin-left: 0;
-	}
-	#contact{
-		width: 100%;
-		display: block;
-		padding-top: 2em;
-	}
-	.contacticons{
-		display: none;
-	}
+.contact-icons {
+  max-width: 3em;
+  padding-left: 1em;
 }
