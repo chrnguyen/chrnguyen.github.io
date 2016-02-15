@@ -1,20 +1,14 @@
 ---
 layout: archive
 title: Writings
-css: [main,archive]
-back: whitebackground
-anode: true
+css: [main]
 categories: writings
 ---
 
-<h2>learnings</h2>
+<h2>Writings</h2>
 {% for post in site.categories.writings %}
-	<div class="apost">
-		<div class="info">
-		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		</div>
-		<div class="meta">
-			<p>{{ post.date | date_to_string }} &sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
-		</div>
+	<div class="archive-post">
+		<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+		<p class="post-meta">{{ post.date | date_to_string }} | {{ post.content | number_of_words | divided_by:180 }} min</p>
 	</div>
 {% endfor %}

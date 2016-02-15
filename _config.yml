@@ -4,3 +4,5 @@ baseurl: "www.chrnguyen.com"
 paginate: 10
 markdown: rdiscount
 permalink: pretty
+gems:
+  - jekyll-paginate

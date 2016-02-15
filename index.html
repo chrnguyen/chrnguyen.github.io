@@ -1,63 +1,11 @@
 ---
-layout: default
+layout: front
 title: Home
 css: [main]
-js: [main]
-desc: "Hi, my name is Christina Nguyen and I am a product designer in SF. I write occasionally. I love meshing startups/lean/ux and collaborating with interesting people."
+desc: "Christina Nguyen is a product designer in San Francisco."
 ---
 
-<div class="full-width">
-  <h2>empathy + moxie</h2><br>
-  <h1>Christina Nguyen is a product designer at <a href="addepar.com">Addepar</a>.</h1>
-</div>
-
-<div class="full-width">
-  <div class="project">
-    <a href="/writings/2014/11/18/adding-a-little/">
-      <div class="project-image">
-        <img src="images/adde.png">
-      </div>
-      Addepar
-    </a>
-  </div>
-
-  <div class="project">
-    <div class="project-image">
-      <img src="images/addehelp.png">
-    </div>
-    Addepar Help (WIP)
-  </div>
-</div>
-
-<div class="full-width">
-  <div class="project">
-    <a href="/work/2014/01/10/rocket/">
-      <div class="project-image">
-        <img src="images/rocket.png">
-      </div>
-      Rocket
-    </a>
-  </div>
-  <div class="project">
-    <a href="/work/2013/12/20/sbox/">
-      <div class="project-image">
-        <img src="images/skimbox.png">
-      </div>
-      Riparian Data
-    </a>
-  </div>
-</div>
-
-<div class="full-width">
-  <h1>Writings</h1>
-  {% for post in site.categories.writings %}
-  <div class="apost">
-    <div class="info">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    </div>
-    <div class="meta">
-      <p>&sim;{{ post.content | number_of_words | divided_by:180 }} min</p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+<h1 class="title">Christina Nguyen</h1>
+<p>Hello there! I'm a product designer at <a href="https://nuna.com">Nuna</a>.</p>
+<p>Previously, I was at <a href="https://addepar.com">Addepar</a> and went to <a href="https://www.olin.edu">Olin College of Engineering</a>.</p>
+<a class="button" href="mailto:me@chrnguyen.com">Email me</a> or <a href="http://pick.co/chrnguyen">schedule time with me</a>.

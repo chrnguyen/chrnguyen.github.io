@@ -1,41 +1,24 @@
-{% include header.html %}
-  <div class="sidebar">
-    <a href="/index.html">
-      <svg class="home-img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 56 56.3" enable-background="new 0 0 56 56.3" xml:space="preserve">
-      <g>
-        <path d="M55.7,28.3L55.7,28.3L46,18.2V6c0-1.1-0.9-2-2-2h-4c-1.1,0-2,0.9-2,2v3.9l-9.3-9.6l0,0C28.5,0.1,28.3,0,28,0
-          s-0.5,0.1-0.7,0.3l0,0l-27,28l0,0C0.1,28.5,0,28.7,0,29c0,0.6,0.4,1,1,1c0.3,0,0.5-0.1,0.7-0.3l0,0L6,25.3V54c0,1.1,0.9,2,2,2h40
-          c1.1,0,2-0.9,2-2V25.3l4.3,4.4l0,0c0.2,0.2,0.4,0.3,0.7,0.3c0.6,0,1-0.4,1-1C56,28.7,55.9,28.5,55.7,28.3z M40,6h4v10.2L40,12V6z
-           M34,54H22V32h12V54z M48,54H36V32c0-1.1-0.9-2-2-2H22c-1.1,0-2,0.9-2,2v22H8V23.2L28,2.4l20,20.7V54z"/>
-      </g>
-      </svg>
-      <p>Home</p>
-    </a>
-  </div>
-  <div class="main">
-    <div class="content post-content">
-      <h1> {{ page.title }}</h1>
-      <p class="meta-info">{{ page.date | date_to_string }} &bull; Estimated reading time ~ {{ page.content | number_of_words | divided_by:180 }} min</p>
+{% include postheader.html %}
+  <div class="content">
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date_to_string }} &bull; Estimated reading time ~ {{ page.content | number_of_words | divided_by:180 }} min</p>
+    <div class="post-content">
       {{content}}
+    </div>
+    <div class="clearfix">
       <div class="sharing">
-        <a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u={{site.baseurl}}{{page.url}}" target="_blank">
-          Share on Facebook
-        </a>
+        <div class="fb-share-button" 
+          data-href="{{site.baseurl}}{{page.url}}" 
+          data-layout="button">
+        </div>
+      </div>
+      <div class="sharing">
         <a href="https://twitter.com/share" class="twitter-share-button" data-related="chrnguyen">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <!-- Place this tag where you want the share button to render. -->
-        <div class="g-plus" data-action="share"></div>
-
-        <!-- Place this tag after the last share tag. -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
       </div>
+    </div>
+    <div class="nav-back">
+      <a href="{{site.baseurl}}/writings">← Read more writings</a>
     </div>
   </div>
 {% include footer.html %}

@@ -1,12 +1,8 @@
 {% include header.html %}
-	<header>
-		<h1>Writings from the Desk of Christina Nguyen</h1>
-		<h2>&hearts; lean UX, user research at startups, robots, education, board games</h2>
-		<div class="btn">
-			<a href="/index.html">About Me</a>
+	<div class="content">
+		{{content}}
+		<div class="nav-back">
+			<a href="{{site.baseurl}}">← Back to home</a>
 		</div>
-	</header>
-	<div id="list-container" class="container">
-	{{content}}
 	</div>
 {% include footer.html %}
