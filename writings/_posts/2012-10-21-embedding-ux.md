@@ -10,8 +10,7 @@ desc: A few things that I've tried to help embed UX in an agile, lean framework.
 
 I've always thought owning "user experience" as its own little silo was a bit weird. Shouldn't everyone be pushing the experience further with their own strengths?
 
-Although [Riparian Data][1] is still constantly reworking its own culture in relation to user experience, here are a few things we've tried that have helped to embed UX:
-[1]: http://ripariandata.com "Riparian Data"
+Although [Riparian Data](http://ripariandata.com "Riparian Data") is still constantly reworking its own culture in relation to user experience, here are a few things we've tried that have helped to embed UX:
 
 When people in the organization truly buy into the premise that building better experiences for users will increase the organization's chance for success, the UX work really can begin. The culture to be driven by people's experiences with your product tends to be one of the hardest things to change. Luckily for me, there was some substantial work already done. The emphasis on design these days make it a bit easier, and previous generation of UX and IAers have made huge strides here. It seems like an easy premise to accept and pretty common-sensical, but what tends to be lost is allocating resources to user research and taking into account the findings. 
 

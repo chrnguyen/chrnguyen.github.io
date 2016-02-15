@@ -2,7 +2,7 @@ name: "Christina Nguyen"
 description: "My name is Christina Nguyen and I enjoy designing and prototyping products with empathy and moxie."
 url: "http://chrnguyen.com"
 paginate: 10
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 gems:
   - jekyll-paginate

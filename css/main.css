@@ -3,7 +3,6 @@ body {
   background-color: #fafafa;
   color: #574D4F;
   font-family: 'calluna';
-  font-size: 1.1em;
 }
 
 * {
@@ -80,6 +79,7 @@ h2 {
 
 p {
   margin-bottom: 0.6em;
+  font-size: 1.2em;
 }
 
 .title {
