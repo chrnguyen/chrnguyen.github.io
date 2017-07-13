@@ -1,8 +1,10 @@
-name: "Christina Nguyen"
-description: "My name is Christina Nguyen and I enjoy designing and prototyping products with empathy and moxie."
-url: "http://chrnguyen.com"
-paginate: 10
+title: "Christina Nguyen"
+description: "Christina Nguyen is a UX designer at Nuna in San Francisco."
+url: "https://chrnguyen.com"
+
 markdown: kramdown
-permalink: pretty
 gems:
-  - jekyll-paginate
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

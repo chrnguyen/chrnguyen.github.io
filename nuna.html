@@ -1,0 +1,116 @@
+---
+layout: main
+title: Nuna
+---
+<section class="content">
+  <h1>Two years at Nuna.</h1>
+  <p>There’s a lot that you get to work on in two years at a fast-moving healthcare startup. I worked on two interfaces for Centers for Medicare and Medicaid Services (CMS), one of which I’ll get into below. I've also helped define the self-insured employer product not only through designing the UI but by researching BI tools to leverage, facilitating prioritization, and helping stakeholders think about the client experience holistically. I’ve also researched ways to improve our data pipeline and services. Working on processes and other mediums only serves to get closer to building the right thing.</p>
+</section>
+<section class="nuna-background overview">
+  <h1>Designing for Data Quality Care</h1>
+  <div class="media">
+    <h2 class="left">Goal</h2>
+    <p class="right">Design a web application that allows state users to triage data quality errors, so that researchers can work with high-quality claims information across the United States.</p>
+  </div>
+  <div class="media">
+    <h2 class="left">Role</h2>
+    <p class="right">Led design and research, and helped with implementation for 4 months.</p>
+  </div>
+</section>
+<section class="content">
+  <h1>Day 11. Wireframes</h1>
+  <p>I was mostly flying by the seat of my pants, learning as rapidly as I could. There weren’t designs for anything that the engineers were building. We had a hypothesis of who the users were, and I restructured the site to accomodate the work ahead and iterated with people who were closer to the actual users. Going into this, I knew the wireframes wouldn’t be quite right, but at least they adhered to better practices.</p>
+</section>
+<section class="split">
+  <div class="img-container"><img src="/assets/n1.png"/><figcaption>Fig 1. First stab at reorganizing</figcaption></div>
+  <div class="img-container"><img src="/assets/n2.png"/><figcaption>Fig 2. After some iterations, 2-3 weeks later</figcaption></div>
+</section>
+<section class="content">
+  <h1>CSS. No Style Guide.</h1>
+  <p>Using the guidelines and colors from CMS, I skinned the site from no CSS. We stuck to Arial because webfonts are typically disabled on their machines. Other considerations were accessibility (Section 508 compliance), dominant use of Internet Explorer, and being within an iframe.</p>
+  <div class="img-container"><img class="bordered" src="/assets/n3.png"/><figcaption>Fig 3. Operations Dashboard with CSS</figcaption></div>
+</section>
+<section class="content">
+  <h1>Validating with Usability Testing</h1>
+  <p>I did some usability testing with a few internal people first, to identify some usability issues and test the script.</p>
+  <p>Through some magic (we call her Jane), I was able to tagalong to some site visits to do some contextual inquiries and usability testing with actual users. I also supplemented this with remote usability testing with other users. </p>
+  <p><a href="/assets/nuscript.pdf">Download usability script (PDF)</a></p>
+</section>
+<section class="content">
+  <h1>Personas</h1>
+  <p>To help designers in the future who need to make things for these state users, I synthesized information from our contextual inquiries into personas.</p>
+  <div class="img-container floated"><img src="/assets/n4.png"/><figcaption>Fig 4. Carol</figcaption></div>
+  <h2>Carol</h2>
+  <p>Carol triages errors in a state that cares about data quality and has the political and financial resources to improve their data quality. For the past several years, she has worked in a small, technical team and is responsible for all the claims files. Though she feels like she is constantly stuck and cannot get better data, she proactively creates reports (spreadsheets with comments usually) for the people upstream (and to data providers) to highlight the errors out of her control. She also automates a lot of her work to produce better reports, but she relies on querying the database and the Operations Dashboard to ensure that the data they have and send is correct. Carol is impatient to see the files go through and her changes improve their data quality. She is anxious about any change that CMS will decide, and would prefer information about changes months in advance (and then makes notes about each addendum and note). Missing values makes her twitch, because it reminds her of implementing 8/9 fills. She looks forward to when their TA drops bits of information about what other states are doing, and generally feels that they ahead of the curve.</p>
+  <div class="img-container floated"><img src="/assets/n5.png"/><figcaption>Fig 5. Frank</figcaption></div>
+  <h2>Frank</h2>
+  <p>Frank has been working for a state that is fairly resource-strapped for the past 15 years, but they do want to provide useful information to other stakeholders. Not only does he produce and maintain files for T-MSIS, he is responsible for files for state agencies and other researchers. He remembers which errors he does not need to fix, and efficiently identifies the appropriate errors in the error report that may be a mapping error. He now is able to use the Operations Dashboard to triage errors instead of manually triaging, and sees exactly the data he put in. Though he wants better data quality federally, he can only provide the data from the source, and does not get too worried about the other errors. He wants to see that a code change has gotten rid of the errors that prevents CMS from accepting the data, and is impatient with the Operations Dashboard. Since he is usually doing a lot of things at once, his TA mostly contacts him about any changes, and then Frank sighs knowingly at the lack of forethought. He does make sure that he changes the mapping at the appropriate timing.</p>
+  <div class="img-container floated"><img src="/assets/n6.png"/><figcaption>Fig 6. Margaret</figcaption></div>
+  <h2>Margaret</h2>
+  <p>Margaret does not use the Operations Dashboard to triage errors, since she is a bit more upstream than people who triage. She relies on reports to see if there is anything she can do politically to get people (down to the provider level) to change the data that they are sending to conform to the standard, and prioritizes the technical tasks. She feels like she is stuck in between people that do not care about the data they are providing and CMS, and struggles to provide a clear narrative for the data providers other than that it is federally mandated. As the point of contact for CMS and the TA for her state, she hounds them for information and to provide clarifications her team. Margaret is mostly frustrated with the information lag and lack of control, because she sees her team stall, but has other projects for them to do to improve their data quality. She contacts people at other states to compare notes, and finds that CMS is fairly inconsistent with their communication.</p>
+</section>
+<section class="content">
+  <h1>Recommendations</h1>
+  <p>A few key takeaways for the UI:
+    <ul>
+      <li>The interface could provide better information contextual to the type of error that is being shown. Especially confusing are relational errors, which are a new error type.</li>
+      <li>It is also lacking in ways to share information, and people cannot share links easily because the UI is within an iframe. </li>
+      <li>Known errors keep cropping up, and there should be a way to mute them.</li>
+      <li>Users’ mental model is still around errors for each file, even though that isn’t what is happening and can cause confusion.</li>
+    </ul>
+    <a href="">Download full recommendations including process and documentation takeaways (PDF)</a>
+  </p>
+  <p>Below are a few ideas to clean up the usability problems, and presented a large set of wireframes to help with discussions with CMS.</p>
+  <div class="img-container">
+    <img src="/assets/n7.png" class="bordered"/><figcaption>Fig 7. One example of providing more context to a particular error: by highlighting join keys to another record, they can figure out why this record was associated with another record. The plainenglish version of the error is embedded within the record.</figcaption>
+  </div>
+  <div class="split">
+    <div class="img-container">
+      <img src="/assets/n8.png" class="bordered"/><figcaption>Fig 8. One idea to provide relevant, but different information for a value error.</figcaption>
+    </div>
+    <div class="img-container">
+      <img src="/assets/n9.png" class="bordered"/><figcaption>Fig 9. An idea on how to provide different information for a relational erorr (records across multiple files).</figcaption>
+    </div>
+  </div>
+</section>
+<section class="nuna-background overview">
+  <img src="/assets/gov.svg" />
+  <h1>Challenge Accepted: Working with the Government</h1>
+  <h3>Compiled learnings from two projects</h3>
+</section>
+<section class="content">
+  <h1> Overcoming Lack of Access to Users</h1>
+  <p>We proposed a user research plan, and were able to convince them to get access to some people to do stakeholder interviews with to inform the next phase of the project. </p>
+  <p>We were also able to do usability testing and some user research when training and onboarding beta users.</p>
+</section>
+<section class="content">
+  <h1>Getting Ahead of Requirements</h1>
+  <p>Due to some time constraints and anxiety from stakeholders, it was difficult to understand why stakeholders asked for certain features and how the requirements came to be (through a different contractor). I tried giving the requirements form through mocks and wireframes, so that there was a visual representation of our understanding of what people needed, and we could debate why/how they should be implemented more concretely.</p>
+  <p>I also noticed that we were spending a lot of time in meetings correlating the work that we did with the written requirements, so provided annotated wireframes with the requirements that each tile/feature met. These became a cornerstone of communicating with our client and their stakeholders. </p>
+  <blockquote>“The pre-work that you did in understanding requirements and doing mockups based on a holistic understanding was way way ahead of where we were. The fact that I’m just now getting through the requirements and understanding the full context behind why you did the mockups the way you did has left me really impressed at the job you did, which was much more than a direct translation of requirements to dashboards.”<cite>— Rahul, Engineer</cite></blockquote>
+</section>
+<section class="content">
+  <h1>Flexibility for Other Contractors’ Additions</h1>
+  <p>Creating a library of dashboards seemed to be a more scalable way to provide some early information into their data, but allowed for us to continually add more dashboards for monitoring information and also plan ahead for the possibility that a different contractor would need to take on the library.</p>
+</section>
+<section class="content">
+  <h1>Provide Frameworks to Stakeholders</h1>
+  <p>One thing that we noticed is that because they were in such a data desert, dashboards seemed shiny and useful for everything. However, dashboards are useful for monitoring and are most useful when you need to refer to them on a fairly regular cadence.</p>
+  <p>We provided a framework to the government agency so that they could determine whether dashboards would be useful or if a report or a different tool may be more appropriate.</p>
+</section>
+<footer>
+  <h1>Still curious?</h1>
+  <div class="media">
+    <div class="left">
+      <p><a href="/addepar.html">Case study from Addepar</a></p>
+      <p>Reach out if you're interested in learning more — I'm always happy to talk about UX and design.</p>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="mailto:me@chrnguyen.com"><img src="/assets/mail.svg" class="icon"/>me@chrnguyen.com</a></li>
+        <li><a href="https://instagram.com/chrnguyen"><img src="/assets/ig.svg" class="icon" />instagram</a></li>
+        <li><a href="https://linkedin.com/in/chrnguyen"><img src="/assets/li.svg" class="icon" />linkedin</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

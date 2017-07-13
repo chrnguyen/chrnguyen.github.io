@@ -1,0 +1,60 @@
+---
+layout: main
+title: Addepar
+---
+<section class="addepar-background overview">
+  <h1>Improving Usability by Little Changes</h1>
+  <div class="media">
+    <h2 class="left">Goal</h2>
+    <p class="right">Visual and usability improvements, and I also wanted to get more familiar with the existing style guide.</p>
+  </div>
+  <div class="media">
+    <h2 class="left">Role</h2>
+    <p class="right">Implemented a quick version in a hackathon and rolled out in a few months. This also allowed other designers to do quick prototypes with the style guide, and communicate more easily with engineers.</p>
+  </div>
+</section>
+<section class="split">
+  <div class="img-container"><img src="/assets/a1.png"/><figcaption>Fig 1. Before</figcaption></div>
+  <div class="img-container"><img src="/assets/a2.png"/><figcaption>Fig 2. After</figcaption></div>
+</section>
+<section class="content">
+  <p>During Addepar’s last hackathon, we decided to fix multiple small usability problems that our previous UI (Fig 1) caused.</p>
+  <p>The first issue that I focused on were the “floating islands.” The table and charts felt like they were draggable and resizable (they’re not) due to the different backgrounds and the drop shadow. Providing a full white background (Fig 2) allowed the gutters to be smaller.</p>
+  <p>Since the main view had a white background, the top navigation needed more distinction. The top navigation bar also needed to balance the left navigation (context chooser), and we decided that the tools should be the top level of the hierarchy. A secondary panel looked too similar to the table, so I provided some shadowing for a layering effect. This is a great example of how things can snowball because it’s difficult to make such changes in isolation.</p>
+  <p>Though the hamburger menu has become common to denote a menu in iOS devices, it doesn’t have as strong affordance in a desktop environment. I moved the collapse icon to be associated to the actual content that would be expanded or contracted.</p>
+  <p>I also cleaned up the toolbar, and the buttons now have a different background color and slight rounded corners to make them feel clickable. I streamlined these controls by removing superfluous secondary text</p>
+  <p>The tables also used to have dotted lines and spacing in between columns that broke up the flow of information (though the idea seemed to be provide affordance to resize the columns). However, indicating that the columns are resizable in that way is unnatural. I added some indications on hover (not pictured) that helped users discover this.</p>
+</section>
+<section class="content">
+  <h1>Validation and Undo Habits</h1>
+  <p>I also did some explorations around validation and undo, below.</p>
+  <div class="img-container"><img src="/assets/a3.png"/><figcaption>Fig 3. Changing the undo pattern</figcaption></div>
+  <div class="img-container"><img src="/assets/a4.png"/><figcaption>Fig 4. Validation explorations</figcaption></div>
+</section>
+<section class="content">
+  <h1>Rapid Iteration</h1>
+  <p>By getting more designers familiar with the style guide, designers could easily prototype different designs, using existing patterns. For example, I was able to prototype the three different designs below in an hour or so, and this helped me evaluate and communicate the different designs.</p>
+</section>
+<section class="split">
+  <div class="img-container"><img src="/assets/a5.png"/><figcaption>Fig 5. First option prototype</figcaption></div>
+  <div class="img-container"><img src="/assets/a6.png"/><figcaption>Fig 6. Second option prototype</figcaption></div>
+  <div class="img-container"><img src="/assets/a7.png"/><figcaption>Fig 7. Third option prototype</figcaption></div>
+</section>
+<footer>
+  <div class="container">
+    <h1>Still curious?</h1>
+    <div class="media">
+      <div class="left">
+        <p><a href="/addepar.html">Case study from Nuna</a></p>
+        <p>Reach out if you're interested in learning more — I'm always happy to talk about UX and design.</p>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="mailto:me@chrnguyen.com"><img src="/assets/mail.svg" class="icon"/>me@chrnguyen.com</a></li>
+          <li><a href="https://instagram.com/chrnguyen"><img src="/assets/ig.svg" class="icon" />instagram</a></li>
+          <li><a href="https://linkedin.com/in/chrnguyen"><img src="/assets/li.svg" class="icon" />linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
