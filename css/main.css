@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  margin-top: -1vh;
+  margin-top: .7em;
   flex: 1;
 }
 
@@ -38,6 +38,7 @@ a {
   font-family: "europa";
   font-weight: 700;
   color: #333;
+  font-size: 0.8em;
 }
 
 a:hover {
@@ -89,6 +90,7 @@ nav p {
 nav a {
   color: #fefefe;
   text-decoration: none;
+  font-size: 1em;
 }
 
 nav ul {
@@ -108,9 +110,9 @@ nav .active a {
 
 nav .active a::before {
   content: '◆';
-  margin-left: -1em;
+  margin-left: -1.1em;
   margin-right: .4em;
-  font-size: .7em;
+  font-size: 1em;
 }
 
 /* Common */
@@ -352,8 +354,9 @@ footer .icon {
     padding-top: 0;
   }
 
-  main a {
-    font-size: 0.8em;
+  main {
+    overflow-y: auto;
+    margin-top: 0;
   }
 
   nav {
@@ -391,10 +394,6 @@ footer .icon {
     color: #ccc;
   }
 
-  main {
-    overflow-y: auto;
-  }
-
   .media,
   .split {
     flex-direction: row;
@@ -423,6 +422,10 @@ footer .icon {
     margin-right: 2em;
   }
 
+  footer a {
+    font-size: 0.8em;
+  }
+
   /* About */
   .bridge {
     margin-top: -12vh;
@@ -431,10 +434,6 @@ footer .icon {
   .about {
     max-width: 60em;
     margin: 0 auto;
-  }
-
-  .about a {
-    font-size: 0.8em;
   }
 
   .about .right {
