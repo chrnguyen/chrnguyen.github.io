@@ -120,6 +120,7 @@ nav .active a::before {
 .about,
 .split,
 .fragment,
+.fragment-post,
 footer {
   padding: 5vh 8vw;
 }
@@ -309,7 +310,7 @@ footer .icon {
 }
 
 .back {
-  padding: 2vh 2vw 1vh;
+  padding: 3.5vh 2vw 1vh;
   background-color: #eee;
   font-size: 0.8em;
 }
@@ -471,7 +472,7 @@ footer .icon {
 
 @media (min-width: 90rem) {
   .floated.img-container {
-    max-width: calc(50vw - 22em);
+    max-width: calc(50vw - 24em);
     margin-left: 0;
     margin-right: calc(20em - 50vw);
     margin-top: 2.5em;
@@ -481,11 +482,12 @@ footer .icon {
   .content > .img-container:not(.floated)
   figcaption {
     margin-right: -18em;
-    width: calc(50vw - 32em);
+    width: calc(50vw - 35em);
     float: right;
   }
 
-  .about {
+  .about,
+  .fragment-post {
     max-width: 50em;
     margin-left: auto;
     margin-right: auto;
