@@ -11,7 +11,7 @@ title: fragments
       <figcaption>Fig 1. Charlie as of Jan 2017, and the blue's now gone.</figcaption>
     </div>
     <div class="posts-list right">
-      <h2>some thoughts and lists</h2>
+      <h3>some thoughts and lists</h3>
       {% for post in site.posts %}  
       <div class="post">
         <div class="date">{{ post.date | date: "%B %Y"}}</div>
@@ -20,7 +20,7 @@ title: fragments
       {% endfor %}
     </div>
   </div>
-  <h2>slow progression of learning ceramics</h2>
+  <h3>slow progression of learning ceramics</h3>
   <div class="images">
     {% for myfile in site.static_files %}
       {% if myfile.path contains 'ceramics' %}
@@ -28,7 +28,7 @@ title: fragments
       {% endif %}
     {% endfor %}
   </div>
-  <h2>some random things I have made</h2>
+  <h3>some random things I have made</h3>
   <div class="images">
     {% for myfile in site.static_files %}
       {% if myfile.path contains 'make' %}
@@ -36,7 +36,7 @@ title: fragments
       {% endif %}
     {% endfor %}
   </div>
-  <h2>few things from my kitchen</h2>
+  <h3>few things from my kitchen</h3>
   <div class="images">
     {% for myfile in site.static_files %}
       {% if myfile.path contains 'cook' %}
@@ -47,7 +47,7 @@ title: fragments
 </div>
 <footer>
   <h1>Still curious?</h1>
-  <div class="media">
+  <div class="split">
     <div class="left">
       <p><a href="/nuna.html">Case study from Nuna</a></p>
       <p><a href="/addepar.html">Case study from Addepar</a></p>
