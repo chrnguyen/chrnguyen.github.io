@@ -29,19 +29,9 @@
     {% endif %}
   </head>
   <body>
-    <nav>
-      <a href="/"><img src="/assets/logo.svg" class="logo"/></a>
-      <p>christina nguyen<br /><small>designer</small></p>
-      <ul>
-        <li class="{% if page.url == '/' %}active{% endif %}"><a href="/">about</a></li>
-        <li class="{% if page.url == '/nuna.html' %}active{% endif %}"><a href="/nuna.html">nuna</a></li>
-        <li class="{% if page.url == '/addepar.html' %}active{% endif %}"><a href="/addepar.html">addepar</a></li>
-        <li class="{% if page.url == '/fragments.html' %}active{% endif %}"><a href="/fragments.html">fragments</a></li>
-      </ul>
-    </nav>
+    {% include nav.html %}
     <main>
     {{content}}
     </main>
-    {% include footer.html %}
   </body>
 </html>

@@ -471,9 +471,10 @@ footer .icon {
 
 @media (min-width: 90rem) {
   .floated.img-container {
-    max-width: calc(50vw - 22em);
+    max-width: calc(50vw - 28em);
+    width: calc(50vw - 28em);
     margin-left: 0;
-    margin-right: calc(20em - 50vw);
+    margin-right: calc(22em - 50vw);
     margin-top: 2.5em;
     float: right;
   }

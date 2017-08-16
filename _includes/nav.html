@@ -1,0 +1,10 @@
+<nav>
+  <a href="{{ site.url }}"><img src="/assets/logo.svg" class="logo"/></a>
+  <p>christina nguyen<br /><small>ux designer</small></p>
+  <ul>
+    <li class="{% if page.url == '/' %}active{% endif %}"><a href="/">about</a></li>
+    <li class="{% if page.url == '/nuna.html' %}active{% endif %}"><a href="/nuna.html">nuna</a></li>
+    <li class="{% if page.url == '/addepar.html' %}active{% endif %}"><a href="/addepar.html">addepar</a></li>
+     <li class="{% if page.url == '/thoughts' %}active{% endif %}"><a href="/thoughts">thoughts</a></li>
+  </ul>
+</nav>

@@ -29,24 +29,14 @@
     {% endif %}
   </head>
   <body>
-    <nav>
-      <a href="{{ site.url }}"><img src="/assets/logo.svg" class="logo"/></a>
-      <p>christina nguyen<br /><small>ux designer</small></p>
-      <ul>
-        <li class="{% if page.url == '/' %}active{% endif %}"><a href="/">about</a></li>
-        <li class="{% if page.url == '/nuna.html' %}active{% endif %}"><a href="/nuna.html">nuna</a></li>
-        <li class="{% if page.url == '/addepar.html' %}active{% endif %}"><a href="/addepar.html">addepar</a></li>
-         <li class="{% if page.url == '/fragments' %}active{% endif %}"><a href="/fragments">fragments</a></li>
-      </ul>
-    </nav>
+    {% include nav.html %}
     <main>
       <div class="back">
-        ← <a href="/fragments">all fragments</a>
+        ← <a href="/thoughts">all thoughts</a>
       </div>
       <div class="fragment-post">
         {{content}}
       </div>
     </main>
-    {% include footer.html %}
   </body>
 </html>

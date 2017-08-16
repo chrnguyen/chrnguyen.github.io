@@ -1,0 +1,14 @@
+---
+title: some things from my kitchen
+layout: post
+---
+<div class="fragment">
+  <h3>few things from my kitchen</h3>
+  <div class="images">
+    {% for myfile in site.static_files %}
+      {% if myfile.path contains 'cook' %}
+      <img class="img" src="{{ myfile.path }}"/ >
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,17 +1,16 @@
 ---
 layout: main
-title: fragments
+title: thoughts
 ---
 
 <div class="fragment">
-  <h1>fragments</h1>
+  <h1>thoughts and lists</h1>
   <div class="split">
     <div class="left">
       <img class="portrait" src="/assets/photo.jpg" />
-      <figcaption>Fig 1. Charlie as of Jan 2017, and the blue's now gone.</figcaption>
+      <figcaption>Fig 1. Charlie as of Jan 2017, and the blue's now gone.</figcaption><br/>
     </div>
     <div class="posts-list right">
-      <h3>some thoughts and lists</h3>
       {% for post in site.posts %}  
       <div class="post">
         <div class="date">{{ post.date | date: "%B %Y"}}</div>
@@ -19,30 +18,6 @@ title: fragments
       </div>
       {% endfor %}
     </div>
-  </div>
-  <h3>slow progression of learning ceramics</h3>
-  <div class="images">
-    {% for myfile in site.static_files %}
-      {% if myfile.path contains 'ceramics' %}
-      <img class="img" src="{{ myfile.path }}"/ >
-      {% endif %}
-    {% endfor %}
-  </div>
-  <h3>some random things I have made</h3>
-  <div class="images">
-    {% for myfile in site.static_files %}
-      {% if myfile.path contains 'make' %}
-      <img class="img" src="{{ myfile.path }}"/ >
-      {% endif %}
-    {% endfor %}
-  </div>
-  <h3>few things from my kitchen</h3>
-  <div class="images">
-    {% for myfile in site.static_files %}
-      {% if myfile.path contains 'cook' %}
-      <img class="img" src="{{ myfile.path }}"/ >
-      {% endif %}
-    {% endfor %}
   </div>
 </div>
 <footer>
