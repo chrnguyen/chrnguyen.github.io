@@ -39,15 +39,27 @@
   </body>
     <script>
     $(".front").mousemove(function(event) {
-      console.log('hello world');
       var eye = $(".eye");
+      var pupil = $(".pupil");
+      var eyebk = $(".eye-background");
       var x = (eye.offset().left) + (eye.width() / 2);
       var y = (eye.offset().top) + (eye.height() / 2);
       var rad = Math.atan2(event.pageX - x, event.pageY - y);
       var rot = (rad * (180 / Math.PI) * -1) + 180;
+      var topmax = pupil.height();
+      var top = 0;
+      var bottommax = eyebk.height() - pupil.height() - eye.height();
+      if (event.pageY < topmax) {
+        top = topmax;
+      }
+      else if (event.pageY > bottommax) {
+        top = bottommax;
+      }
+      else
+        top = event.pageY;
       eye.css({
        'transform': 'rotate(' + rot + 'deg)',
-        'top': Math.max(Math.min(event.pageY -  100, 80), 65) + 'px'
+        'top': top + 'px'
       });
     });
   </script>

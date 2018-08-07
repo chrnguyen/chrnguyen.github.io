@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-color: #000;
+  background-color: #111;
   color: #fff;
   font-family: 'Rubik', sans-serif;
   font-size: 2.7vmin;
@@ -38,13 +38,14 @@ body {
   bottom: 4em;
   right: 3.5em;
 }
-.eye:after {
+
+.pupil {
   position: absolute;
   bottom: 0em;
   right: 0em;
   width: 4em;
   height: 4em;
-  background: #000;
+  background: #111;
   border-radius: 50%;
   box-shadow: 0px 2px 5px 0px rgba(120,120,120,.5);
   content: " ";
@@ -61,4 +62,10 @@ body {
 
 .front a {
   color: #7fd8be;
+}
+
+@media (max-width: 480px) {
+  .googly {
+    max-width: 80%;
+  }
 }
