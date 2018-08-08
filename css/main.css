@@ -64,6 +64,10 @@ body {
   color: #7fd8be;
 }
 
+.front a:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 480px) {
   .googly {
     max-width: 80%;

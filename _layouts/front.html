@@ -46,14 +46,14 @@
       var y = (eye.offset().top) + (eye.height() / 2);
       var rad = Math.atan2(event.pageX - x, event.pageY - y);
       var rot = (rad * (180 / Math.PI) * -1) + 180;
-      var topmax = pupil.height();
+      var minY = pupil.height();
       var top = 0;
-      var bottommax = eyebk.height() - pupil.height() - eye.height();
-      if (event.pageY < topmax) {
-        top = topmax;
+      var maxY = eyebk.height() - pupil.height() - eye.height();
+      if (event.pageY < minY) {
+        top = minY;
       }
-      else if (event.pageY > bottommax) {
-        top = bottommax;
+      else if (event.pageY > maxY) {
+        top = maxY;
       }
       else
         top = event.pageY;
@@ -62,5 +62,39 @@
         'top': top + 'px'
       });
     });
+
+    function handleOrientation(event) {
+      var eye = $(".eye");
+      var pupil = $(".pupil");
+      var eyebk = $(".eye-background");
+      var minY = pupil.height();
+      var maxY = eyebk.height() - pupil.height() / 2;
+
+      var y = (event.beta + 180) * eyebk.height() / 360;
+      var x = (event.gamma + 90) * eyebk.width() / 180;
+      var carty = event.beta - 90 + eyebk.height() / 2;
+      var cartx = event.gamma + eyebk.width() / 2;
+      var rad = Math.atan2(cartx, carty);
+      var rot = (rad * (180 / Math.PI) * -1) + 180;
+      var top = 0;
+      if (event.beta < 0) {
+        top = minY - pupil.height() / 2;
+      }
+      else if (event.beta > 95) {
+        top = maxY - pupil.height() / 2;
+      }
+      else {
+        top = y - pupil.height() / 2;
+      }
+
+      eye.css({
+        'transform': 'rotate(' + rot + 'deg)',
+        'top': top + 'px'
+      });
+    }
+
+    if (window.DeviceOrientationEvent) {
+      window.addEventListener('deviceorientation', handleOrientation, true);
+    }
   </script>
 </html>
